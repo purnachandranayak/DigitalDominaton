@@ -1,6 +1,6 @@
 import React from "react";
 import SEO from "../common/seo";
-import ServiceDetails from "../components/";
+import ServiceDetails from "../components/service-details";
 import Wrapper from "../layout/wrapper";
 
 const index = () => {
