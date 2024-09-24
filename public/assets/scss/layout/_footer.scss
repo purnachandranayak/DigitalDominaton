@@ -4,6 +4,10 @@
 /*  14. FOOTER CSS START
 /*----------------------------------------*/
 
+.tp-footer__logo.mb-25 {
+    max-width: 130px;
+}
+
 .tp-footer{
     &__widget-logo{
         display: inline-block;

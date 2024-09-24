@@ -54,7 +54,7 @@ const HeaderSeven = () => {
                             <div className="header-bottom__right d-flex align-items-center justify-content-end">
                                 <div className="header-bottom__action header-bottom__action-4">
                                     <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/register">
-                                    <span>Log In</span>
+                                    {/* <span>Log In</span> */}
                                     </Link>
                                 </div>
                                 <div className="header-bottom__btn d-flex align-items-center">

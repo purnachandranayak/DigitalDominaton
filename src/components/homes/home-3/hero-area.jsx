@@ -37,9 +37,9 @@ const HeroArea = () => {
             <div className="tp-hero-left-shape">
                <Image src={left_shape} alt="them-pure" />
             </div>
-            <div className="tp-hero-gradient-bg">
+            {/* <div className="tp-hero-gradient-bg">
                <Image src={gradient_bg} alt="them-pure" />
-            </div>
+            </div> */}
             <div className="container">
                <div className="row justify-content-center z-index-3">
                   <div className="col-xl-11">

@@ -1,44 +1,54 @@
 import BlurStart from '@/svg/blur-start'; 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 
-import author_img_1 from "../../../../public/assets/img/rate/rate-logo-1.png"
-import author_img_2  from "../../../../public/assets/img/rate/rate-logo-2.png"
-import author_img_3 from "../../../../public/assets/img/rate/rate-logo-3.png"
+import author_img_1 from "../../../../public/assets/img/rate/rate-logo-1.png";
+import author_img_2 from "../../../../public/assets/img/rate/rate-logo-2.png";
+import author_img_3 from "../../../../public/assets/img/rate/rate-logo-3.png";
 
-import img_1 from "../../../../public/assets/img/rate/rate-shape-1.png"
-import img_2 from "../../../../public/assets/img/rate/rate-shape-2.png"
-import author_big_img from "../../../../public/assets/img/rate/rated-img.png"
+import img_1 from "../../../../public/assets/img/rate/rate-shape-1.png";
+import img_2 from "../../../../public/assets/img/rate/rate-shape-2.png";
+// Removed author_big_img import since we will use the scheduling widget instead
 import Link from 'next/link';
 
-const rated_content ={ 
-        author : [
+const rated_content = { 
+    author: [
         {
             id: 1,
-            title: <>"the interface is excellent"</>,
+            title: <>"The interface is excellent"</>,
             img: author_img_1,
         },
         {
             id: 2,
-            title: <>"improvements in every release"</>,
+            title: <>"Improvements in every release"</>,
             img: author_img_2,
         },
         {
             id: 3,
-            title: <>"improvements in every release"</>,
+            title: <>"Great customer service and features."</>,
             img: author_img_3,
         },
-        ],
-        
-        bg_img: "/assets/img/rate/rated-bg.jpg",
-        
+    ],
+    bg_img: "/assets/img/rate/rated-bg.jpg",
+    title: <>Customers have <span>Consistently</span><br /> <span>Rated</span> Digital Domination <span>4.9/5</span></>,
+};
 
-        title: <>Customers have <span>Consistently</span><br /> <span>Rated</span> Digital Domination <span> 4.9/5</span></>,
-}
-
-const {author, bg_img, title}  = rated_content
+const { author, bg_img, title } = rated_content;
 
 const RatedArea = () => {
+    // Use useEffect to append the Leadmonk widget script
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.src = "https://firebasestorage.googleapis.com/v0/b/leadmonk-prod.appspot.com/o/leadmonk%2Fembed%2Fleadmonk_widget.js?alt=media";
+        script.async = true;
+        document.body.appendChild(script);
+        
+        // Cleanup function to remove script when the component unmounts
+        return () => {
+            document.body.removeChild(script);
+        };
+    }, []);
+
     return (
         <>
             <div className="tp-rated-area fix p-relative">
@@ -92,7 +102,11 @@ const RatedArea = () => {
                         </div>
                      </div>
                      <div className="author-rated-big-img">
-                        <Image src={author_big_img} alt="theme-pure"/>
+                        {/* Integrated Leadmonk scheduling widget here */}
+                        <div className="leadmonk-inline-widget" 
+                             data-url="https://meet.digitaldomination.io/digitaldomination/strategy?hideLogo=true&pagebackground=0xef444400" 
+                             style={{ minWidth: "340px", height: "630px" }}>
+                        </div>
                      </div>
                   </div>
                </div>

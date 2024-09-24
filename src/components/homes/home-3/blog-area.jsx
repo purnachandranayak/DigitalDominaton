@@ -41,7 +41,7 @@ const BlogArea = () => {
                                         </div>
                                     </div>
                                     <div className="tp-blog-title-box">
-                                        <Link className="tp-blog-title-sm" href={`/blog-details/${item.slug}`}>
+                                        <Link className="tp-blog-title-sm" href={item.anchor_url}>
                                             {item.title}
                                         </Link>
                                     </div>

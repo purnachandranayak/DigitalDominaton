@@ -5,9 +5,9 @@ import React,{useState} from 'react';
 import NavMenu from './nav-menu';
 import Image from 'next/image';
 
-import logo from "../../../public/assets/img/logo/logo-black.webp";
+import logo from "../../../public/assets/img/logo/logo-dark.svg";
 import white_logo from "../../../public/assets/img/logo/logo-white.png";
-import black_logo from "../../../public/assets/img/logo/logo-black.webp";
+import black_logo from "../../../public/assets/img/logo/logo-dark.svg";
 
 const HeaderFour = ({style_error}) => {
 

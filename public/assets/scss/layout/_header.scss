@@ -132,6 +132,10 @@
     }
 }
 
+.header-bottom__logo {
+    max-width: 130px;
+}
+
 
 .header-sticky-bg-2{
     &.header-sticky{
@@ -148,6 +152,7 @@
         z-index: 999;
         & .black-logo{
             display: block;
+            max-width: 130px;
         }
         & .white-logo{
             display: none;

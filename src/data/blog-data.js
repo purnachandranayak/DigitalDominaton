@@ -1,6 +1,6 @@
-import img_1 from "../../public/assets/img/blog/blog-1.jpg"
-import img_2 from "../../public/assets/img/blog/blog-2.jpg"
-import img_3 from "../../public/assets/img/blog/blog-3.jpg"
+import img_1 from "../../public/assets/img/blog/sd.webp"
+import img_2 from "../../public/assets/img/blog/sd2.webp"
+import img_3 from "../../public/assets/img/blog/sd3.webp"
 
 import author_img_1 from "../../public/assets/img/blog/blog-avata-1.png";
 import author_img_2 from "../../public/assets/img/blog/blog-avata-2.png";
@@ -13,36 +13,39 @@ const blog_data = [
     // home 03 
     {
         id: 1, 
+        anchor_url: "https://www.digitaldomination.io/case-studies/transforming-lead-generation-for-first-choice-business-brokers",
         img: img_1,
-        category: "Crm Software",
+        category: "Lead Gen",
         color: "1",
-        date: "28 April, 2023",
-        title: <>How Chatbots Can Help You <br /> Drive More Sales</>,
+        date: "Jan 25, 2024",
+        title: <>Transforming Lead Generation for<br /> First Choice Business Brokers</>,
         author_img: author_img_1,
-        author_name: "Hilary Ouse",
-        job_title: "Founder & CEO Dulalix"
+        author_name: "Biswajit",
+        job_title: "CEO, Digital Domination"
     },
     {
         id: 2, 
+        anchor_url: "https://www.digitaldomination.io/case-studies/refunds-pro-case-study",
         img: img_2,
-        category: "Sales Tools",
+        category: "Lead Gen",
         color: "2",
-        date: "28 April, 2023",
-        title: <>6 Tips for Personal Selling that Guarantee Success in 2023</>,
+        date: "Jan 25, 2024",
+        title: <>Refunds Pro LLC's Lead Generation Transformation ...</>,
         author_img: author_img_2,
-        author_name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix"
+        author_name: "Biswajit",
+        job_title: "CEO, Digital Domination"
     },
     {
         id: 3, 
+        anchor_url: "https://www.digitaldomination.io/case-studies/myconect-case-study",
         img: img_3,
-        category: "Sales Management",
+        category: "Business Growth",
         color: "3",
-        date: "28 April, 2023",
-        title: <>How Chatbots Can Help You <br /> Drive More Sales</>,
+        date: "Jan 21, 2024",
+        title: <>Digital Domination's Impact on <br /> MyConect's Remarkable Growth</>,
         author_img: author_img_3,
-        author_name: "Penny Tool",
-        job_title: "Founder & CEO Dulalix"
+        author_name: "Biswajit",
+        job_title: "CEO, Digital Domination"
     },
 
     // home 04

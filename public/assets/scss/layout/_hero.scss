@@ -452,6 +452,7 @@
     & span{
         font-style: italic;
         font-weight: 400;
+        color: #f34345;
         font-family: var(--tp-ff-dm);
     }
 }
@@ -477,11 +478,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--tp-common-white);
-    & img{
-        background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 55.86%);
-        background-blend-mode: soft-light;
-    }
+    background-color: transparent;
+    // & img{
+    //     background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 55.86%);
+    //     background-blend-mode: soft-light;
+    // }
 }
 
 .tp-hero{

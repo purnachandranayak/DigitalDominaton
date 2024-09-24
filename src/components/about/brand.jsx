@@ -1,75 +1,118 @@
 import Image from 'next/image';
 import React from 'react';
-
+import Slider from "react-slick"; // Import react-slick for the carousel
 
 // brand img import here 
-import brand_img_1 from "../../../public/assets/img/brand/brand-inner-1.png"
-import brand_img_2 from "../../../public/assets/img/brand/brand-inner-2.png"
-import brand_img_3 from "../../../public/assets/img/brand/brand-inner-3.png"
-import brand_img_4 from "../../../public/assets/img/brand/brand-inner-4.png"
-import brand_img_5 from "../../../public/assets/img/brand/brand-inner-5.png"
-import brand_img_6 from "../../../public/assets/img/brand/brand-inner-6.png"
-import brand_img_7 from "../../../public/assets/img/brand/brand-inner-7.png"
-import brand_img_8 from "../../../public/assets/img/brand/brand-inner-8.png"
-import brand_img_9 from "../../../public/assets/img/brand/brand-inner-9.png"
+import brand_img_1 from "../../../public/assets/img/brand/whizco_logo.webp";
+import brand_img_2 from "../../../public/assets/img/brand/ablespace-292x300.png";
+import brand_img_3 from "../../../public/assets/img/brand/RefundsPro-Logo-300x58.webp";
+import brand_img_4 from "../../../public/assets/img/brand/myconect_logo-300x74.webp";
+import brand_img_5 from "../../../public/assets/img/brand/impactve_logo.webp";
+import brand_img_6 from "../../../public/assets/img/brand/itlist.png";
+import brand_img_7 from "../../../public/assets/img/brand/sbh-cap.png";
+import brand_img_8 from "../../../public/assets/img/brand/brand-inner-8.png";
+import brand_img_9 from "../../../public/assets/img/brand/brand-inner-9.png";
 
 const brand_content = {
-    titel: "Trusted by Thousands Business",
-    description: <>More than 100,000+ teams are using  Digital Domination </>,
-    
-    brand_img: [
-        {img: brand_img_1, delay: ".2s"},
-        {img: brand_img_2, delay: ".4s"},
-        {img: brand_img_3, delay: ".6s"},
-        {img: brand_img_4, delay: ".8s"},
-        {img: brand_img_5, delay: ".9s"},
-        {img: brand_img_6, delay: "1s"},
-        {img: brand_img_7, delay: "1.1s"},
-        {img: brand_img_8, delay: "1.2s"},
-        {img: brand_img_9, delay: "1.3s"},
+  titel: "They trust us:",
+  brand_img: [
+    { img: brand_img_1 },
+    { img: brand_img_2 },
+    { img: brand_img_3 },
+    { img: brand_img_4 },
+    { img: brand_img_5 },
+    { img: brand_img_6 },
+    { img: brand_img_7 },
+    { img: brand_img_8 },
+    { img: brand_img_9 },
+  ],
+};
 
-    ]
-}
-const {titel, description, brand_img}  = brand_content 
-
+const { titel, brand_img } = brand_content;
 
 const Brand = () => {
-    return (
-      <>
-        <div className="ab-brand-area">
-          <div className="container">
-            <div className="ab-brand-border-bottom pb-90">
-              <div className="row">
-                <div className="col-12">
-                  <div className="ab-brand-section-box text-center mb-50">
-                    <h4 className="ab-brand-title">{titel}</h4>
-                    <p>{description}</p>
-                  </div>
+  // Settings for the carousel
+  const settings = {
+    dots: false,               // Hide the dots (pagination)
+    arrows: false,             // Hide the navigation arrows
+    infinite: true,            // Infinite scroll enabled
+    speed: 2000,               // Duration for one slide transition
+    slidesToShow: 5,           // Number of slides visible
+    slidesToScroll: 1,         // Number of slides to scroll at once
+    autoplay: true,            // Enable auto-play
+    autoplaySpeed: 0,          // The speed of autoplay, 0 for continuous scrolling
+    cssEase: 'linear',         // Makes the scrolling smooth and continuous
+    pauseOnHover: false,       // Do not pause on hover
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
+  };
+
+  return (
+    <>
+      <div className="ab-brand-area">
+        <div className="container">
+          <div className="ab-brand-border-bottom pb-90">
+            <div className="row">
+              {/* <div className="col-12">
+                <div className="ab-brand-section-box text-center mb-50">
+                  <h4 className="ab-brand-title">{titel}</h4>
                 </div>
-              </div>
-              <div className="row justify-content-center">
-                <div className="col-xl-10">
-                  <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 justify-content-center">
-                    {brand_img.map((item, i) => (
-                      <div
-                        key={i}
-                        className="col wow tpfadeUp"
-                        data-wow-duration=".9s"
-                        data-wow-delay={item.delay}
-                      >
-                        <div className="ab-brand-item mb-25">
-                          <Image src={item.img} alt="theme-pure" />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
+              </div> */}
+            </div>
+            <div className="row justify-content-center">
+              <div className="col-xl-10">
+                {/* Slick Carousel Component */}
+                <Slider {...settings}>
+                  {brand_img.map((item, i) => (
+                    <div key={i} className="ab-brand-item mb-25">
+                      <Image src={item.img} alt={`brand-${i}`} />
+                    </div>
+                  ))}
+                </Slider>
               </div>
             </div>
           </div>
         </div>
-      </>
-    );
+      </div>
+      <style jsx>{`
+        .ab-brand-item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .slick-track {
+          display: flex;
+          align-items: center;
+        }
+        .slick-slide {
+          transition: transform 0.3s ease-in-out;
+        }
+        .ab-brand-section-box h4 {
+          font-size: 24px;
+          font-weight: 700;
+          margin-bottom: 20px;
+        }
+      `}</style>
+    </>
+  );
 };
 
 export default Brand;

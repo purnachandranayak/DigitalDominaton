@@ -21,7 +21,7 @@ const footer_content  = {
     contact_mail: "contact@info.com",
     location: "1234 North Avenue Luke Lane, South Bend,",
 
-    copy_right: <>Full Copyright & Design By <Link href="codefreex.com">@Codefreex</Link> – {new Date().getFullYear()}</>,
+    copy_right: <>Full Copyright & Design By <Link href="https://codefreex.com">@Codefreex</Link> – {new Date().getFullYear()}</>,
 
     footer_lisks : [
         {

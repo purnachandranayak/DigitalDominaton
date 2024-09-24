@@ -9,7 +9,7 @@ import Link from 'next/link';
 import React from 'react';
 import Slider from 'react-slick';
 
-import footer_logo from  "../../../public/assets/img/logo/logo-black.webp";
+import footer_logo from  "../../../public/assets/img/logo/logo-dark.svg";
 
 const footer_content = {
     bg_img: "/assets/img/footer/overly.png",

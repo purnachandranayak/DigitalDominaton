@@ -7,8 +7,8 @@ import React, { useState } from 'react';
 import NavMenu from './nav-menu';
 
 
-import logo_black from "../../../public/assets/img/logo/logo-black.webp";
-import logo_white from "../../../public/assets/img/logo/logo-black.webp";
+import logo_black from "../../../public/assets/img/logo/logo-dark.svg";
+import logo_white from "../../../public/assets/img/logo/logo-dark.svg";
 
 
 const HeaderSix = ({ style_2 = false }) => {

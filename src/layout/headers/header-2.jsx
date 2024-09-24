@@ -5,8 +5,8 @@ import Link from 'next/link';
 import React,{useState} from 'react';
 import NavMenu from './nav-menu';
 
-import white_logo from "../../../public/assets/img/logo/logo-black.webp"
-import black_logo from "../../../public/assets/img/logo/logo-black.webp" 
+import white_logo from "../../../public/assets/img/logo/logo-dark.svg"
+import black_logo from "../../../public/assets/img/logo/logo-dark.svg" 
 
 const hero_content = {
     login_btn: "Login",
