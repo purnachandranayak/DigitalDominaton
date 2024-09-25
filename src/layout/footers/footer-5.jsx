@@ -4,7 +4,7 @@ import EmailFour from '@/svg/email-4';
 import PhoneFour from '@/svg/phone-4';
 import RightArrow from '@/svg/right-arrow';
 import Link from 'next/link';
-import Image from 'next/image'; 
+import Image from "next/legacy/image"; 
 import React from 'react';
 
 

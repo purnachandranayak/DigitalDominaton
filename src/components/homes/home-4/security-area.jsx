@@ -1,6 +1,6 @@
 import RightArrowTwo from '@/svg/right-arrow-2';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 import Slider from 'react-slick';
 

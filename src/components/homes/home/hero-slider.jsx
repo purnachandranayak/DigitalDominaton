@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 //use gsap
 import { gsap } from "gsap";
 import useCharAnimation from "@/hooks/useCharAnimation";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 // images import
 import hero_frame from "../../../../public/assets/img/hero/hero-frame.png";

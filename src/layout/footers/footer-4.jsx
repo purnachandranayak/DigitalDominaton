@@ -5,7 +5,7 @@ import LocationTwo from '@/svg/location-2';
 import PhoneThree from '@/svg/phone-3';
 import RightArrow from '@/svg/right-arrow';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 
 import footer_shape from "../../../public/assets/img/footer/footer-bottom-shape-4-1.png";

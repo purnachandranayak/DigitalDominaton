@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useIsomorphicLayoutEffect } from '@/hooks/useIsomorphicEffect';
 import SocialLinks from '@/common/social-links';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import solution_1  from "../../../public/assets/img/project/solution-1.jpg";
 import solution_2  from "../../../public/assets/img/project/solution-2.jpg";
 

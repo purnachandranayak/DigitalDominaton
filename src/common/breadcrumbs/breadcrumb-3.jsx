@@ -2,7 +2,7 @@ import React from 'react';
 
 import shape_1 from "../../../public/assets/img/breadcrumb/breadcrumb-shape-1.png";
 import shape_2 from "../../../public/assets/img/breadcrumb/breadcrumb-shape-2.png";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const BreadcrumbThree = () => {
     return (

@@ -16,7 +16,7 @@ import integration_img_11 from "../../../../public/assets/img/feature/fea-circle
 import integration_img_12 from "../../../../public/assets/img/feature/fea-circle-5-12.png";
 import integration_img_13 from "../../../../public/assets/img/feature/fea-circle-5-13.png";
 import integration_img_14 from "../../../../public/assets/img/feature/fea-circle-5-14.png";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const integration_content = {
     title:<><span>Featured</span> <br /> In all Over the World</>,

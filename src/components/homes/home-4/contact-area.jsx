@@ -2,7 +2,7 @@ import EmailThree from '@/svg/email-3';
 import LocationTwo from '@/svg/location-2';
 import PhoneThree from '@/svg/phone-3';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 
 import contact_img from "../../../../public/assets/img/hero/hero-4-3.png"

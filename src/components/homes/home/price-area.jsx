@@ -1,7 +1,7 @@
  
 import price_data_home_one from "@/data/price-data-1";
 import PriceDotLine from "@/svg/price-dot-line";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
 

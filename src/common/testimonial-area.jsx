@@ -1,5 +1,5 @@
 import testimonial_data from '@/data/testimonial-data';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React, { useState, useEffect } from 'react';
 import { Navigation, Scrollbar } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 import Slider from "react-slick"; // Import react-slick for the carousel
 
@@ -10,11 +10,11 @@ import brand_img_4 from "../../../public/assets/img/brand/myconect_logo-300x74.w
 import brand_img_5 from "../../../public/assets/img/brand/impactve_logo.webp";
 import brand_img_6 from "../../../public/assets/img/brand/itlist.png";
 import brand_img_7 from "../../../public/assets/img/brand/sbh-cap.png";
-import brand_img_8 from "../../../public/assets/img/brand/brand-inner-8.png";
-import brand_img_9 from "../../../public/assets/img/brand/brand-inner-9.png";
+import brand_img_8 from "../../../public/assets/img/brand/preloader.webp";
+import brand_img_9 from "../../../public/assets/img/brand/newtra.png";
 
 const brand_content = {
-  titel: "They trust us:",
+  title: "They trust us:",
   brand_img: [
     { img: brand_img_1 },
     { img: brand_img_2 },
@@ -28,7 +28,7 @@ const brand_content = {
   ],
 };
 
-const { titel, brand_img } = brand_content;
+const { title, brand_img } = brand_content;
 
 const Brand = () => {
   // Settings for the carousel
@@ -47,19 +47,19 @@ const Brand = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 6,
         },
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 5,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
         },
       },
     ],
@@ -71,9 +71,10 @@ const Brand = () => {
         <div className="container">
           <div className="ab-brand-border-bottom pb-90">
             <div className="row">
+              {/* Optional title */}
               {/* <div className="col-12">
                 <div className="ab-brand-section-box text-center mb-50">
-                  <h4 className="ab-brand-title">{titel}</h4>
+                  <h4 className="ab-brand-title">{title}</h4>
                 </div>
               </div> */}
             </div>
@@ -83,7 +84,14 @@ const Brand = () => {
                 <Slider {...settings}>
                   {brand_img.map((item, i) => (
                     <div key={i} className="ab-brand-item mb-25">
-                      <Image src={item.img} alt={`brand-${i}`} />
+                      <Image 
+                        src={item.img} 
+                        alt={`brand-${i}`} 
+                        layout="intrinsic" 
+                        objectFit="contain" 
+                        width={150} // Consistent width for the logos
+                        height={100} // Consistent height for the logos
+                      />
                     </div>
                   ))}
                 </Slider>
@@ -97,6 +105,7 @@ const Brand = () => {
           display: flex;
           justify-content: center;
           align-items: center;
+          height: auto; /* Set a consistent height for the brand logo container */
         }
         .slick-track {
           display: flex;
@@ -108,7 +117,7 @@ const Brand = () => {
         .ab-brand-section-box h4 {
           font-size: 24px;
           font-weight: 700;
-          margin-bottom: 20px;
+          // margin-bottom: 20px;
         }
       `}</style>
     </>

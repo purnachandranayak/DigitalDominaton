@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const testimonial_content = {
     bg_img: "/assets/img/testimonial/testi-bg-3-1.png",
-    title: <><span>Kind Words</span><br />from our Customers</>
+    title: <><span>Discover What Our Clients</span><br />Have to Say About Their Experience<br /> with Us</>
 };
 const { bg_img, title } = testimonial_content;
 
@@ -15,7 +15,7 @@ const TestimonialArea = () => {
         script.async = true;
         script.onload = () => {
             // Call iFrameResize after the script has loaded
-            window.iFrameResize({ log: false, checkOrigin: false }, "#socialjuice-wall-digital-domination-4753");
+            window.iFrameResize({ log: false, checkOrigin: false }, "#socialjuice-carousel-digital-domination-4922");
         };
 
         // Append the script to the document
@@ -46,16 +46,16 @@ const TestimonialArea = () => {
                         <div className="container-fluid g-0">
                             <div className="row g-0">
                                 <div className="col-12">
-                                    <div className="iframe-wrapper" style={{ height: '675px', width: '100%' }}>
+                                    <div className="iframe-wrapper" style={{ height: '400px', width: '100%' }}>
                                         <iframe
-                                            id="socialjuice-wall-digital-domination-4753"
-                                            src="https://embed.socialjuice.io/wall/6988?s=digital-domination"
+                                            id="socialjuice-carousel-digital-domination-4922"
+                                            src="https://embed.socialjuice.io/carousel/6988?s=digital-domination&id=4922&custom=true"
                                             allowFullScreen
                                             allowTransparency="true"
                                             frameBorder="0"
-                                            scrolling="yes"
+                                            scrolling="no"
                                             width="100%"
-                                            height="auto"
+                                            height="400px"
                                         ></iframe>
                                     </div>
                                 </div>

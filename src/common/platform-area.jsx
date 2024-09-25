@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React, {useEffect, useState} from 'react';
 
 import bg_shape from "../../public/assets/img/platform/p-bg.png";

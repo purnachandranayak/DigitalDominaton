@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React, { useState } from 'react';
 
 import shape_1 from "../../../public/assets/img/breadcrumb/breadcrumb-shape-1.png"

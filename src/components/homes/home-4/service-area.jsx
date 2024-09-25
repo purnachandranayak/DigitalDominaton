@@ -1,7 +1,7 @@
 import service_data from '@/data/service-data';
 import Link from 'next/link';
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import img from "../../../../public/assets/img/service/service-shape-right.png";
 

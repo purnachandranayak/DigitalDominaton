@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import SearchClose from '../svg/search-close';
 import SearchIcon from '../svg/search-icon';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import  logo_white from "../../public/assets/img/logo/logo-white.png"
 
 const SearchPopup = ({searchOpen, setSearchOpen}) => {

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import React from 'react';
 import Slider from 'react-slick';
@@ -14,10 +14,10 @@ import slider_img_2_3 from "../../../../public/assets/img/integration/integratio
 import slider_img_2_4 from "../../../../public/assets/img/integration/integration-8.png";
 
 const integration_content ={
-    sub_title: "Integration",
-    title: <>Integrated with Your <span>Favourite Apps</span></>,
+    sub_title: "Integrations",
+    title: <>Easily Integrates With Your <span>Technology Stack</span></>,
     int_title: <>Integrated with Your Favourite Apps</>,
-    btn_text: "See all Integrations",
+    btn_text: "Book A Call",
     bg_img: "/assets/img/integration/integration-bg.jpg"
 }
 const {sub_title, title, int_title, btn_text, bg_img}  = integration_content

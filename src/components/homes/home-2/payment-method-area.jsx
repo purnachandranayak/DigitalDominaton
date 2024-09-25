@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 // payment img import 
 import logo from "../../../../public/assets/img/payment-logo/logo-main.png";

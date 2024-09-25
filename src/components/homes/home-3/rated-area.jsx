@@ -1,6 +1,6 @@
 import BlurStart from '@/svg/blur-start'; 
 import React, { useEffect } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import author_img_1 from "../../../../public/assets/img/rate/rate-logo-1.png";
 import author_img_2 from "../../../../public/assets/img/rate/rate-logo-2.png";
@@ -30,7 +30,7 @@ const rated_content = {
         },
     ],
     bg_img: "/assets/img/rate/rated-bg.jpg",
-    title: <>Customers have <span>Consistently</span><br /> <span>Rated</span> Digital Domination <span>4.9/5</span></>,
+    title: <>Book a <span>Discovery Call</span><br /></>,
 };
 
 const { author, bg_img, title } = rated_content;
@@ -62,7 +62,7 @@ const RatedArea = () => {
                   <div className="container z-index-6">
                      <div className="row justify-content-center">
                         <div className="col-xl-10">
-                           <div className="tp-rated-title-box text-center mb-60">
+                           <div className="tp-rated-title-box text-center">
                               <div className="tp-rated-icon tp-title-anim">  
                                     <BlurStart />                                      
                                     <BlurStart />                                      
@@ -70,17 +70,17 @@ const RatedArea = () => {
                                     <BlurStart />                                      
                                     <BlurStart />                                      
                               </div>
-                              <h5 className="tp-section-title-3 text-white pb-40">
+                              <h5 className="tp-section-title-3 text-white">
                                 {title}
                               </h5>
-                              <Link className="tp-btn-blue-lg tp-btn-hover alt-color-white" href="#">
+                              {/* <Link className="tp-btn-blue-lg tp-btn-hover alt-color-white" href="#">
                                  <span className="text-color-black">Try it on Browser</span>
                                  <b></b>
-                              </Link>
+                              </Link> */}
                            </div>
                         </div>
                      </div>
-                     <div className="author-rated-wrapper">
+                     {/* <div className="author-rated-wrapper">
                         <div className="row">
                             {author.map((item, i)  => 
                                 <div key={i} className="col-xl-4 col-lg-4 col-md-4">
@@ -100,14 +100,11 @@ const RatedArea = () => {
                                 </div>
                             )} 
                         </div>
-                     </div>
-                     <div className="author-rated-big-img">
-                        {/* Integrated Leadmonk scheduling widget here */}
+                     </div> */}
                         <div className="leadmonk-inline-widget" 
                              data-url="https://meet.digitaldomination.io/digitaldomination/strategy?hideLogo=true&pagebackground=0xef444400" 
                              style={{ minWidth: "340px", height: "630px" }}>
                         </div>
-                     </div>
                   </div>
                </div>
             </div>

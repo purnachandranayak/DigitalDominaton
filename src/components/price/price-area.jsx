@@ -2,7 +2,7 @@ import NoticeTwo from '@/svg/notice-2';
 import React from 'react';
 
 import header_img from "../../../public/assets/img/price/price-4.1.png";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 
 const pricing_data_monthly = {

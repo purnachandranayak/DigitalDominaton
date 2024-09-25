@@ -11,7 +11,7 @@ import Tags from './tags';
 import img_1 from "../../../public/assets/img/blog/blog-list-1.jpg";
 import img_2 from "../../../public/assets/img/blog/blog-list-3.jpg";
 import thumb from "../../../public/assets/img/blog/blog-list-2.jpg";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 
 

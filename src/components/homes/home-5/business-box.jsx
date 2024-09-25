@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 
 import shape_1 from "../../../../public/assets/img/cta/cta-shape-5-1.png";

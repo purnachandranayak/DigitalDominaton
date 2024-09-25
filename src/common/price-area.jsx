@@ -3,7 +3,7 @@ import React from 'react';
 import NoticIcon from '../svg/notic-icon';
 
 import header_img  from "../../public/assets/img/price/price-4.1.png";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const price_content  = {
     sub_title: "Who we are",

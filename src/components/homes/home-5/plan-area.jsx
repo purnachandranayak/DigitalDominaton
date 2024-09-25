@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import plan_img_1 from "../../../../public/assets/img/plan/plan-1-1.png"
 import plan_img_2 from "../../../../public/assets/img/plan/plan-1-2.png"

@@ -1,7 +1,7 @@
 import useTitleAnimation from '@/hooks/useTitleAnimation';
 import service_data from '@/data/service-data';
 import RightArrow from '@/svg/right-arrow';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import React, { useRef } from 'react';
 

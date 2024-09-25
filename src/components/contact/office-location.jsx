@@ -4,7 +4,7 @@ import React from 'react';
 import img_1 from "../../../public/assets/img/contact/contact-icon-sm-5.png";
 import img_2 from "../../../public/assets/img/contact/contact-icon-sm-6.png";
 import img_3 from "../../../public/assets/img/contact/contact-icon-sm-7.png";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 
 

@@ -6,7 +6,7 @@ import React from 'react';
 
 
 import team_img from "../../../public/assets/img/team/team-details-1.jpg";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 
 

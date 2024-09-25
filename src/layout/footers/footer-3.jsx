@@ -4,7 +4,7 @@ import EmailIcon from '@/svg/email';
 import EmailTwo from '@/svg/email-2';
 import PhoneTwo from '@/svg/phone-2';
 import RightArrow from '@/svg/right-arrow';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import React from 'react';
 import Slider from 'react-slick';
@@ -125,7 +125,7 @@ const FooterThree = () => {
              style={{backgroundImage: `url(${bg_img})`}}>
                 
             <div className="tp-browser-details-area pt-110 pb-30 p-relative">
-            <div className="container">
+            {/* <div className="container">
                 <div className="row align-items-center">
                     <div className="col-xl-9 col-lg-9">
                         <div className="tp-browser-section-box d-flex justify-content-between align-items-center mb-30">
@@ -148,12 +148,12 @@ const FooterThree = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             </div>
 
             <footer> 
 
-            <div className="tp-footer-slide pb-80">
+            {/* <div className="tp-footer-slide pb-80">
                 <div className="container-fluid g-0">
                     <div className="row g-0 justify-content-center">
                         <Slider {...setting} className="footer-slide-active">
@@ -169,7 +169,7 @@ const FooterThree = () => {
                         </Slider> 
                     </div>
                 </div>
-            </div> 
+            </div>  */}
 
 
             <div className="tp-footer__pl-pr">
@@ -177,7 +177,7 @@ const FooterThree = () => {
                     <div className="container">
                         <div className="row">
 
-                        <div className="col-xl-3 col-lg-3 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                        <div className="col-xl-3 col-lg-3 col-md-6 pb-30 pt-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
                             <div className="tp-footer__widget footer-widget-3 footer-col-3-1">
                                 <div className="tp-footer__logo mb-25">
                                     <Link href="/">

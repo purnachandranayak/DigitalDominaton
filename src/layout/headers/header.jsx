@@ -7,7 +7,7 @@ import {gsap} from 'gsap';
 import Link from 'next/link';
 import React, {useState, useRef, useEffect, useLayoutEffect} from 'react';
 import NavMenu from './nav-menu';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import logo from "../../../public/assets/img/logo/logo-dark.svg"
 

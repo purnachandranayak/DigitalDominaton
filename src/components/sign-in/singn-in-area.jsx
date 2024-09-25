@@ -2,7 +2,7 @@ import LogingForm from '@/forms/loging-form';
 import AppleIcon from '@/svg/apple-icon';
 import GoogleIcon from '@/svg/google-icon';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 
 // shap import here

@@ -3,7 +3,7 @@ import React from 'react';
 // import { useIsomorphicLayoutEffect } from '@/hooks/useIsomorphicEffect';
 import AnswerQuestion from '@/common/answer-question';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import dashbord from "../../../public/assets/img/service/sv-dashbord.png";
 import service_img from "../../../public/assets/img/service/sv-details-1.jpg"; 
 

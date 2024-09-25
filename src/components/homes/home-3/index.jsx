@@ -26,7 +26,7 @@ const HomeThree = () => {
       <TestimonialArea />
       <IntegrationArea />
       <BlogArea />
-      <Brand />
+      {/* <Brand /> */}
       <FooterThree />
     </>
   );

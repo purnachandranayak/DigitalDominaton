@@ -10,7 +10,7 @@ import PhoneIcon from '@/svg/phone-icon';
 import RightArrow from '@/svg/right-arrow';
 
 import footer_logo from "../../../public/assets/img/logo/logo-white.png";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 
 // footer_content 

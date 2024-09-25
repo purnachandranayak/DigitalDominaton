@@ -4,7 +4,7 @@ import Link from "next/link";
 import useMultipleAnime from "@/hooks/useMultipleAnime";
 import { SocialLinksTwo } from "@/common/social-links";
 import team_data from "@/data/team-data";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const TeamArea = () => {
 const {dataRef} = useMultipleAnime();

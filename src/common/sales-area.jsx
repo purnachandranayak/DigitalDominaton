@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 
 import sales_img_1 from "../../public/assets/img/card/sale-1.png"

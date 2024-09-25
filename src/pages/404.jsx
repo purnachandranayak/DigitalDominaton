@@ -7,7 +7,7 @@ import HeaderFour from "../layout/headers/header-4";
 // error shape import here 
 import error_shape_1 from "../../public/assets/img/login/error-shape.png";
 import error_shape_2 from "../../public/assets/img/login/text-404.png";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 
 const index = () => {

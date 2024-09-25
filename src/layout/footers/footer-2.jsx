@@ -1,7 +1,7 @@
 import { CopyRight } from '@/common/social-links';
 import EmailTwo from '@/svg/email-2';
 import PhoneTwo from '@/svg/phone-2';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import React,{useState} from 'react';
 // img import 

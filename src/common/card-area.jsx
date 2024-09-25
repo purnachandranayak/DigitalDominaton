@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import card_img_1 from "../../public/assets/img/card/card-bg.png";
 import card_img_2 from "../../public/assets/img/card/card-shape-1.png";

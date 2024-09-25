@@ -6,7 +6,7 @@ import plan_img_3 from "../../../../public/assets/img/plan/plan-3.png"
 import plan_img_4 from "../../../../public/assets/img/plan/plan-4.png"
 import plan_img_5 from "../../../../public/assets/img/plan/plan-5.png"
 import plan_img_6 from "../../../../public/assets/img/plan/plan-6.png"
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import img from "../../../../public/assets/img/cta/cta-title-icon-1.png";
 

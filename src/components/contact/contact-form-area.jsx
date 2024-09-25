@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 
 import img from "../../../public/assets/img/contact/contact-icon-sm-4.png";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 
 const contact_content  = {

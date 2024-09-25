@@ -1,6 +1,6 @@
 import useSticky from '@/hooks/use-sticky';
 import Offcanvus from '@/common/offcanvus';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import React,{useState} from 'react';
 import NavMenu from './nav-menu';

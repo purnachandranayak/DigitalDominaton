@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import SocialLinks from '../social-links';
 
 import img_1 from "../../../public/assets/img/breadcrumb/breadcrumb-shape-1.png";

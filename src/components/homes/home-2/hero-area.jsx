@@ -3,7 +3,7 @@ import React from "react";
 import ArrowLine from '@/svg/arrow-line';
 import RoundLine from '@/svg/round-line';
 import useCharAnimation from '@/hooks/useCharAnimation';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 // img import 
 import scroll_bg from "../../../../public/assets/img/hero/scroll-down.png";

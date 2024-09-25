@@ -1,6 +1,6 @@
 import LinearGradientLine from '@/svg/linear-gradient-line';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 
 // service img import 

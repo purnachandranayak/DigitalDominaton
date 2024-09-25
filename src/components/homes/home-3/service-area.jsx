@@ -4,15 +4,15 @@ import React from 'react';
 
 import service_img_1 from "../../../../public/assets/img/service/sv-icon-3-1.png";
 import service_img_2 from "../../../../public/assets/img/service/service-shape-3-1.png";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const service_content = {
-   title: <>Accounting Software <br /> That <span>Handles it All.</span></>,
-   btn_text: <>See All Features</>,
+   title: <>What We <br /> <span>Offer.</span></>,
+   btn_text: <>Discover Now</>,
 
    bg_img: "/assets/img/service/service-3-bg.png",
-   service_title: "CRM Management",
-   service_info: <>Generate, Manage, and Convert leads <br /> into Customers. Automatically</>,
+   service_title: "How can we help your business?",
+   service_info: <>Our B2B sales strategy is perfect for SaaS and Software companies with established products, services and strong case studies.</>,
 }
 const {title, btn_text, bg_img, service_title, service_info}  = service_content
 

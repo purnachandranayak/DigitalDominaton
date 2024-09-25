@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 
 import account_img_1 from "../../../../public/assets/img/account/account-bg.png"

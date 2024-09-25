@@ -2,7 +2,7 @@ import React from 'react';
 import RegisterForm from '@/forms/register-form';
 import AppleIcon from '@/svg/apple-icon'; 
 import GoogleIcon from '@/svg/google-icon';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 
 

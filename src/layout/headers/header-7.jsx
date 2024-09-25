@@ -1,7 +1,7 @@
 import Offcanvus from '@/common/offcanvus';
 import Link from 'next/link';
 import React,{useState} from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import NavMenu from './nav-menu';
 // logo 
 import logo_white from "../../../public/assets/img/logo/logo-white.png";

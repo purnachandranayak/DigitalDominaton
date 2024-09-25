@@ -3,7 +3,7 @@ import testimonial_svg from '@/data/testimonial-svg';
 import RightArrow from '@/svg/right-arrow';
 import StartTwo from '@/svg/start-2';
 import gsap from 'gsap';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import React,{useState, useEffect, useRef} from 'react';
 import Slider from 'react-slick'; 

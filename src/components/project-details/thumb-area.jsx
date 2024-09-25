@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import thumb_img from "../../../public/assets/img/project/pd-img-1.jpg"
 
 const ThumbArea = () => {

@@ -12,7 +12,7 @@
     }
 
     /**
-    @color declaration
+    @color declaration for Light Mode
     */
     @each $color, $shades in $colors {
         @each $shade, $value in $shades {
@@ -20,4 +20,12 @@
         }
     }
 
+    /**
+    @color declaration for Dark Mode
+    */
+    @each $color, $shades in $colors {
+        @each $shade, $value in $shades {
+            --tp-#{$color}-#{$shade}-dark: #{map-get($shades, 'dark-' + $shade)}; // Use dark variants
+        }
+    }
 }

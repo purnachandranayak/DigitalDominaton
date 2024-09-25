@@ -3,7 +3,7 @@ import Offcanvus from '@/common/offcanvus';
 import Link from 'next/link';
 import React,{useState} from 'react';
 import NavMenu from './nav-menu';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import logo from "../../../public/assets/img/logo/logo-dark.svg";
 import white_logo from "../../../public/assets/img/logo/logo-white.png";

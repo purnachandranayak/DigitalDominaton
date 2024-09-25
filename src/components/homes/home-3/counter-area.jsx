@@ -1,5 +1,5 @@
 import Count from '@/common/count';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 
 import counter_shape_1 from "../../../../public/assets/img/counter/counter-shape-2.png";
@@ -8,9 +8,9 @@ import counter_shape_3 from "../../../../public/assets/img/counter/counter-shape
 
 const counter_content = {
     counter_info: [
-        {id: 1, counter: 25, counter_icon: <>+</>,  title: "Team Members",  },
-        {id: 2, counter: 10, counter_icon: <><em>m</em>+</>,  title: "Total Emails Sent",  },
-        {id: 3, counter: 500, counter_icon: <><em>k</em>+</>,  title: "Total Active Leads",  },
+        {id: 1, counter: 12, counter_icon: <>+</>,  title: "Years of experience",  },
+        {id: 2, counter: 34, counter_icon: <><em></em>+</>,  title: "Satisfied clients",  },
+        {id: 3, counter: 2600, counter_icon: <><em></em>+</>,  title: "Successful campaigns",  },
     ],
 } 
 const {counter_info}  = counter_content

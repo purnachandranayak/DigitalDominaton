@@ -1,6 +1,6 @@
 import useMultipleAnime from '@/hooks/useMultipleAnime';
 import portfolio_blog from '@/data/portfolio-blog';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import React, {useState} from 'react';
  
