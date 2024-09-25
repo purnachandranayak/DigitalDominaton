@@ -3,7 +3,7 @@ import Image from "next/legacy/image";
 
 const testimonial_content = {
     bg_img: "/assets/img/testimonial/testi-bg-3-1.png",
-    title: <><span>Discover What Our Clients</span><br />Have to Say About Their Experience<br /> with Us</>
+    title: <><span>Discover What Our Clients</span><br />Have to Say About Their <br /> <span>Experience with Us</span></>
 };
 const { bg_img, title } = testimonial_content;
 
