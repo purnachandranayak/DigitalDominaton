@@ -49,7 +49,7 @@ export default SocialLinks;
 
 
 const copy_right_text = {
-  copy_right: <>Full Copyright & Design By <Link href="codefreex.com">@Codefreex</Link> – {new Date().getFullYear()}</>,
+  copy_right: <>&copy; {new Date().getFullYear()} Copyright Digital Domination LLC.</>,
 }
 const {copy_right}  = copy_right_text
 
