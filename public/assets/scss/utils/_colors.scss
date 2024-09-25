@@ -2,70 +2,45 @@ $colors: (
     'common': (
         'white': #ffffff,
         'black': #000229,
-        'orange': #FF7A41,
-        'purple': #FF75F9,
-        'green': #5FC33B,
-        'green-2': #21B641,
-        'yellow': #FFAB0A,
-        'yellow-2': #FFCE57,
-        'yellow-3': #F8FF35,
-        'yellow-4': #FFC530,
-        'blue': #6865FF,
-        'blue-2': #1117A0,
-        'blue-3': #5138EE,
-        'blue-4': #600EE4,
-        'red': #FF3C82,
-    ),
-    'dark-common': (
-        'white': #ffffff, // Keep white for text
-        'black': #181818, // Dark background
-        'orange': #FF7A41, // Keep vibrant for highlights
-        'purple': #FF75F9,
-        'green': #5FC33B,
-        'green-2': #21B641,
-        'yellow': #FFAB0A,
-        'yellow-2': #FFCE57,
-        'yellow-3': #F8FF35,
-        'yellow-4': #FFC530,
-        'blue': #6865FF,
-        'blue-2': #3D3DFF, // Adjust for visibility
-        'blue-3': #8B7FFF, // Lighten for contrast
-        'blue-4': #A07CE4, // Lighten for contrast
-        'red': #FF3C82,
+        'orange':#FF7A41,
+        'purple':#FF75F9,
+        'green':#5FC33B,
+        'green-2':#21B641,
+        'yellow':#FFAB0A,
+        'yellow-2':#FFCE57,
+        'yellow-3':#F8FF35,
+        'yellow-4':#FFC530,
+        'blue':#6865FF,
+        'blue-2':#1117A0,
+        'blue-3':#5138EE,
+        'blue-4':#600EE4,
+        'red':#FF3C82,
     ),
     'heading': (
         'primary': #000229,
-        'primary-dark': #ffffff, // Light for dark mode
     ),
     'grey': (
-        '1': #5F6368,
-        '2': #9A9DA7,
-        '3': #F5F5F5,
-        '4': #F2F3F5,
-        '5': #888B95,
-        '6': #EEEEF5,
-        '7': #F6F5FA,
-        '8': #F7F9FB,
-        'dark-1': #a6a6a6, // Darker grey for dark mode
-        'dark-2': #bfbfbf,
-        'dark-3': #333333, // For backgrounds and borders
+        '1':#5F6368,
+        '2':#9A9DA7,
+        '3':#F5F5F5,
+        '4':#F2F3F5,
+        '5':#888B95,
+        '6':#EEEEF5,
+        '7':#F6F5FA,
+        '8':#F7F9FB,
     ),
     'text': (
-        'body': #5F6368,
-        'body-dark': #f9f9f9, // Light text for dark mode
+        'body':#5F6368,
     ),
     'theme': (
         '1': #6865FF,
         '2': #AEE87C,
         '3': #FFA8B8,
         '4': #F1A0AF,
-        'dark-1': #a77bff, // Lighter theme for dark mode
-        'dark-2': #a0e68c, // Lighter green for dark mode
     ),
     'border': (
-        '1': #EDF5FA,
-        '2': #EBECF0,
-        'dark-1': #444444, // Dark borders for dark mode
-        'dark-2': #888888, // Slightly lighter border for contrast
+        '1':#EDF5FA,
+        '2':#EBECF0,
     )
 );
+

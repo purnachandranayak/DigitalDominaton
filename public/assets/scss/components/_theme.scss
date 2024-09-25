@@ -1,205 +1,99 @@
 @use '../utils' as *;
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Digital Domination  - Data analytics HTML5 Template
+    Author: Theme Pure
+    Support: https://help.themepure.net/support/
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+/************ TABLE OF CONTENTS ***************
+
+    01. THEME DEFAULT CSS
+	02. MEANMENU CSS START
+	03. ABOUT CSS START
+	04. ACCOUNT CSS START
+	05. BLOG CSS START
+    06. BRAND CSS START
+    07. CAREER CSS START
+    08. CONTACT CSS START
+	09. COUNTER CSS START
+	10. CTA CSS START
+	11. ERROR CSS START
+	12. FAQ CSS START
+	13. FEATURE CSS START
+	14. FOOTER CSS START
+	15. HEADER CSS START
+	16. HERO CSS START
+	17. INTEGRATION CSS START
+	18. PAYMENT CSS START
+	19. PRICE CSS START
+	20. PROJECT CSS START
+	21. RANK CSS START
+	22. SECURITY CSS START
+	23. SERVICE CSS START
+	24. TEAM CSS START
+	25. TESTIMONIAL CSS START
+    26. VIDEO CSS START
+
+**********************************************/
+
+/*----------------------------------------*/
+/*  01. THEME DEFAULT CSS START
+/*----------------------------------------*/
 
 @import url($font-url);
-@media (min-width: 1200px) {
+@media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1200px;
     }
 }
-
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    --bs-gutter-x: 30px;
+	--bs-gutter-x: 30px;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*----------------------------------------*/
-/*  01. THEME DEFAULT CSS START
-/*----------------------------------------*/
-
-:root {
-    --tp-text-body: #333; /* Default light theme body text color */
-    --tp-heading-primary: #111; /* Default light theme heading color */
-    --tp-background: #fff; /* Default light theme background */
-    --tp-common-black: #000; /* Default common black color */
-    --tp-common-white: #fff; /* Default common white color */
-    --tp-theme-1: #3498db; /* Accent color */
-}
-
-.dark-mode {
-    --tp-text-body: #ccc; /* Dark theme body text color */
-    --tp-heading-primary: #eee; /* Dark theme heading color */
-    --tp-background: #222; /* Dark theme background */
-    --tp-common-black: #fff; /* Common black inverts to white in dark mode */
-    --tp-common-white: #000; /* Common white inverts to black in dark mode */
-    --tp-theme-1: #9b59b6; /* Dark theme accent color */
-}
-
-body {
-    background-color: var(--tp-background);
-    color: var(--tp-text-body);
-    font-family: var(--tp-ff-body);
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.3;
-    overflow-x: hidden;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--tp-ff-heading);
-    color: var(--tp-heading-primary);
-    margin-top: 0;
-    font-weight: 700;
-    line-height: 1.1;
-    transition: color 0.3s;
-}
-
-p {
-    color: var(--tp-text-body);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-/* Dark mode styles */
-body.dark-mode {
-    background-color: var(--tp-background);
-    color: var(--tp-text-body);
-}
-
-.dark-mode a,
-.dark-mode p,
-.dark-mode button {
-    color: var(--tp-text-body);
-}
-
-.dark-mode h1, 
-.dark-mode h2, 
-.dark-mode h3, 
-.dark-mode h4, 
-.dark-mode h5, 
-.dark-mode h6 {
-    color: var(--tp-heading-primary);
-}
-
-.dark-mode img {
-    filter: brightness(0.9); /* Optional: Make images a bit darker */
-}
-
-.dark-mode input,
-.dark-mode textarea {
-    background-color: #333;
-    color: var(--tp-common-white);
-    border: 1px solid #555;
-}
-
-.dark-mode *::placeholder {
-    color: #aaa;
-}
-
-/* Dark mode selection styles */
-.dark-mode *::selection {
-    background: var(--tp-theme-1);
-    color: var(--tp-common-black);
-}
-
-/*---------------------------------
-    common classes css start 
----------------------------------*/
-
-.w-img {
-    & img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-.m-img {
-    & img {
-        max-width: 100%;
-    }
-}
-
-.fix {
-    overflow: hidden;
-}
-
-.clear {
-    clear: both;
-}
-
-.f-left {
-    float: left;
-}
-
-.f-right {
-    float: right;
-}
-
-.overflow-y-visible {
-    overflow-x: hidden;
-    overflow-y: visible;
-}
-
-.p-relative {
-    position: relative;
-}
-
-.p-absolute {
-    position: absolute;
-}
-
-.include-bg {
-    @include background();
-}
-
-.gx-10 {
-    --bs-gutter-x: 10px;
-}
-.gx-30 {
-    --bs-gutter-x: 30px;
-}
-.gx-40 {
-    --bs-gutter-x: 40px;
-}
-.gx-50 {
-    --bs-gutter-x: 12px;
-}
-.gx-60 {
-    --bs-gutter-x: 65px;
-}
-.gx-20 {
-    --bs-gutter-x: 20px;
-}
-.gx-25 {
-    --bs-gutter-x: 25px;
-}
-.gx-60 {
-    --bs-gutter-x: 60px;
-    @media #{$lg} {
-        --bs-gutter-x: 40px; 
-    }
-}
-
 /*---------------------------------
 	typography css start 
 ---------------------------------*/
+body {
+    font-family: var(--tp-ff-body);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--tp-text-body);
+    line-height: 1.3;
+    overflow-x: hidden;
+}
 body.monserat {
     font-family: var(--tp-ff-monserat);
 }
 
-html, body {
+html,body{
     overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
     transition: .3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--tp-ff-heading);
+    color: var(--tp-heading-primary);
+    margin-top: 0px;
+    font-weight: 700;
+    line-height: 1.1;
+    @include transition(.3s);
 }
 
 img {
@@ -234,6 +128,13 @@ h6 {
 ul {
     margin: 0px;
     padding: 0px;
+}
+
+p {
+    color: var(--tp-text-body);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .z-index {
@@ -272,7 +173,7 @@ h3,
 h4,
 h5,
 h6 {
-    transition: .3s;
+    @include transition(.3s);
 }
 
 a:focus,
@@ -315,6 +216,9 @@ input,
 textarea {
     outline: none;
     color: var(--tp-common-black);
+    @include tp-placeholder{
+        color: #70737D;       
+    }
 }
 
 input[type="color"] {
@@ -348,6 +252,7 @@ input[type="color"] {
     text-shadow: none;
 }
 
+
 *::-moz-placeholder {
     color: var(--tp-common-black);
     font-size: var(--tp-fz-body);
@@ -359,3 +264,83 @@ input[type="color"] {
     font-size: var(--tp-fz-body);
     opacity: 1;
 }
+
+/*---------------------------------
+    common classes css start 
+---------------------------------*/
+
+.w-img {
+    & img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.m-img {
+    & img {
+        max-width: 100%;
+    }
+}
+
+.fix {
+    overflow: hidden
+}
+
+.clear {
+    clear: both;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.overflow-y-visible {
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.include-bg {
+    @include background();
+}
+
+.gx-10 {
+    --bs-gutter-x: 10px;
+}
+.gx-30 {
+    --bs-gutter-x: 30px;
+}
+.gx-40 {
+    --bs-gutter-x: 40px;
+}
+
+.gx-50 {
+    --bs-gutter-x: 12px;
+}
+.gx-60 {
+    --bs-gutter-x: 65px;
+}
+.gx-20 {
+    --bs-gutter-x: 20px;
+}
+.gx-25 {
+    --bs-gutter-x: 25px;
+}
+.gx-60 {
+    --bs-gutter-x: 60px;
+    @media #{$lg}{
+        --bs-gutter-x: 40px; 
+    }
+}
+
