@@ -24,7 +24,7 @@ import brand_img_9 from "../../../../public/assets/img/brand/newtra.png";
 
 const hero_content = { 
    title_1: <><span>Supercharge</span> Your <span>B2B</span></>,
-   title_2: "Sales Pipeline with Qualified Leads",
+   title_2: <>Sales Pipeline with <br /><span>Qualified Leads</span></>,
    info: <>We specialize in filling your sales pipeline with qualified prospects using <br/>cutting-edge outbound strategies.</>,
    btn_1: "Get Started",
    btn_2: "Book A Free Consultation",

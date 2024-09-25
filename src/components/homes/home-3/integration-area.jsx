@@ -4,14 +4,18 @@ import React from 'react';
 import Slider from 'react-slick';
 
 // slider img import here
-import slider_img_1_1 from "../../../../public/assets/img/integration/integration-1.png";
-import slider_img_1_2 from "../../../../public/assets/img/integration/integration-2.png";
-import slider_img_1_3 from "../../../../public/assets/img/integration/integration-3.png";
-import slider_img_1_4 from "../../../../public/assets/img/integration/integration-4.png";
-import slider_img_2_1 from "../../../../public/assets/img/integration/integration-5.png";
-import slider_img_2_2 from "../../../../public/assets/img/integration/integration-6.png";
-import slider_img_2_3 from "../../../../public/assets/img/integration/integration-7.png";
-import slider_img_2_4 from "../../../../public/assets/img/integration/integration-8.png";
+import slider_img_1_1 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-1.webp";
+import slider_img_1_2 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-2.webp";
+import slider_img_1_3 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-3.webp";
+import slider_img_1_4 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-4.webp";
+import slider_img_1_5 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-5.webp";
+import slider_img_1_6 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-6.png";
+import slider_img_2_1 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-7.webp";
+import slider_img_2_2 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-8.webp";
+import slider_img_2_3 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-13.webp";
+import slider_img_2_4 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-10.webp";
+import slider_img_2_5 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-11.webp";
+import slider_img_2_6 from "../../../../public/assets/img/integration/Cloud-Solutions-Integrations-12.webp";
 
 const integration_content ={
     sub_title: "Integrations",
@@ -28,12 +32,17 @@ const slider_one_data = [
     slider_img_1_2,
     slider_img_1_3,
     slider_img_1_4,
+    slider_img_1_5,
+    slider_img_1_6,
 ]
 const slider_two_data = [
     slider_img_2_1,
     slider_img_2_2,
     slider_img_2_3,
     slider_img_2_4,
+    slider_img_2_5,
+    slider_img_2_6,
+    // slider_img_2_7,
 ]
 
 
@@ -155,7 +164,7 @@ const IntegrationArea = ({style_integraton}) => {
                     {slider_one_data.map((item, i)  => 
                         <div key={i} className="tp-integration-slider-main slick-slide">
                         <div className="tp-integration-slider-item">
-                           <Image src={item} alt="theme-pure" />
+                           <Image src={item} alt="theme-pure" class="custom_icon_integration" />
                         </div>
                      </div>
                     )}                     
@@ -164,7 +173,7 @@ const IntegrationArea = ({style_integraton}) => {
                     {slider_two_data.map((item, i)  => 
                         <div key={i} className="tp-integration-slider-main slick-slide">
                         <div className="tp-integration-slider-item">
-                           <Image src={item} alt="theme-pure" />
+                           <Image src={item} alt="theme-pure" class="custom_icon_integration" />
                         </div>
                      </div>
                         

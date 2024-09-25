@@ -2,30 +2,30 @@ import React from 'react';
 import Image from "next/legacy/image";
 
 
-import sales_img_1 from "../../public/assets/img/card/sale-1.png"
+import sales_img_1 from "../../public/assets/img/card/email-marketing.png"
 import sales_img_2 from "../../public/assets/img/card/sale-2.png"
 import sales_img_3 from "../../public/assets/img/card/sale-3.png"
 
 const sales_content = {
-    title: <>Track and <span>Analyze Sales</span> in Real time</>,
-    dub_title: <>Track and Analyze Sales in Real time</>,
-    description: <>Centralize and simplify payments, and get comprehensive <br /> insights on your financials  Digital Domination .!</>,
+    title: <>Inspire change <span>with creativity</span> passion and <span>impact</span></>,
+    dub_title: <>Inspire change <span>with creativity</span> passion and <span>impact</span></>,
+    description: <>A showcase of our commitment to delivering top-tier, innovative digital solutions. We believe in the power of technology and design to transform businesses, catapulting them into the future. Our commitment to quality and excellence is unparalleled.</>,
 
     sales_feature: [
         {
             id: 1,
             color: "yellow-1",
-            list: "No hidden fees."
+            list: "Digital solutions under one roof."
         },
         {
             id: 2,
             color: "purple-2",
-            list: "100% security. Guaranteed."
+            list: "Strategies tailored to your business needs."
         },
         {
             id: 3,
             color: "green-3",
-            list: "No training or maintenance needed"
+            list: "Competitive pricing for exceptional value."
         },
     ],
 

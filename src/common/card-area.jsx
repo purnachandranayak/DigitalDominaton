@@ -50,11 +50,9 @@ const card_content = {
         },
     ],
 
-    title: <>Manage <span>All your Cards</span> in one Place</>,
-    description: <>Digital products are where it’s at! There are so many benefits
-    to selling digital products. It’s easy to get started and they <br />
-    can be extremely profitable</>,
-    btn_text: "Get Started Free"
+    title: <>Excellence in <span>Innovation</span> and Client <span>Satisfaction</span></>,
+    description: <>At Digital Domination, we specialize in pioneering digital solutions that transform business operations. With a focus on innovation and client satisfaction, we deliver expert services in PR, email & LinkedIn outreach, AI appointment setting, and marketing automation. Trust us to optimize your digital presence and drive sustainable growth.</>,
+    btn_text: "Book an Expert Call"
 }
 const {card_images, title, description, btn_text}  = card_content
 
