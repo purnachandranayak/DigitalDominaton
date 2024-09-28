@@ -18,7 +18,7 @@ const blog_data = [
         category: "Lead Gen",
         color: "1",
         date: "Jan 25, 2024",
-        title: <>Transforming Lead Generation for<br /> First Choice Business Brokers</>,
+        title: <>Transforming lead generation for first choice business brokers</>,
         author_img: author_img_1,
         author_name: "Biswajit",
         job_title: "CEO, Digital Domination"
@@ -30,7 +30,7 @@ const blog_data = [
         category: "Lead Gen",
         color: "2",
         date: "Jan 25, 2024",
-        title: <>Refunds Pro LLC's Lead Generation Transformation ...</>,
+        title: <>Refunds pro LLC's lead generation transformation ...</>,
         author_img: author_img_2,
         author_name: "Biswajit",
         job_title: "CEO, Digital Domination"
@@ -42,7 +42,7 @@ const blog_data = [
         category: "Business Growth",
         color: "3",
         date: "Jan 21, 2024",
-        title: <>Digital Domination's Impact on <br /> MyConect's Remarkable Growth</>,
+        title: <>Digital Domination's impact on MyConect's remarkable growth</>,
         author_img: author_img_3,
         author_name: "Biswajit",
         job_title: "CEO, Digital Domination"

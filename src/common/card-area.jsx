@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from "next/legacy/image";
 
-import card_img_1 from "../../public/assets/img/card/card-bg.png";
+import card_img_1 from "../../public/assets/img/card/card-bg-2.png";
 import card_img_2 from "../../public/assets/img/card/card-shape-1.png";
 import card_img_3 from "../../public/assets/img/card/card-img-1.png";
 import card_img_4 from "../../public/assets/img/card/card-img-2.png";
@@ -18,39 +18,39 @@ const card_content = {
             data_parallax: "",
             img: card_img_1,
         },
-        {
-            id: 2,
-            cls: "img-1 d-none d-sm-block",
-            data_parallax: "",
-            img: card_img_2,
-        },
-        {
-            id: 3,
-            cls: "img-2 d-none d-sm-block",
-            data_parallax: '{"x": 50, "smoothness": 30}',
-            img: card_img_3,
-        },
-        {
-            id: 4,
-            cls: "img-3 d-none d-sm-block",
-            data_parallax: '{"x": -50, "smoothness": 30}',
-            img: card_img_4,
-        },
-        {
-            id: 5,
-            cls: "img-4 d-none d-sm-block",
-            data_parallax: "",
-            img: card_img_5,
-        },
-        {
-            id: 6,
-            cls: "img-5 d-none d-sm-block",
-            data_parallax: "",
-            img: card_img_6,
-        },
+        // {
+        //     id: 2,
+        //     cls: "img-1 d-none d-sm-block",
+        //     data_parallax: "",
+        //     img: card_img_2,
+        // },
+        // {
+        //     id: 3,
+        //     cls: "img-2 d-none d-sm-block",
+        //     data_parallax: '{"x": 50, "smoothness": 30}',
+        //     img: card_img_3,
+        // },
+        // {
+        //     id: 4,
+        //     cls: "img-3 d-none d-sm-block",
+        //     data_parallax: '{"x": -50, "smoothness": 30}',
+        //     img: card_img_4,
+        // },
+        // {
+        //     id: 5,
+        //     cls: "img-4 d-none d-sm-block",
+        //     data_parallax: "",
+        //     img: card_img_5,
+        // },
+        // {
+        //     id: 6,
+        //     cls: "img-5 d-none d-sm-block",
+        //     data_parallax: "",
+        //     img: card_img_6,
+        // },
     ],
 
-    title: <>Excellence in <span>Innovation</span> and Client <span>Satisfaction</span></>,
+    title: <>Excellence in <span>Innovation</span> and client <span>satisfaction</span></>,
     description: <>At Digital Domination, we specialize in pioneering digital solutions that transform business operations. With a focus on innovation and client satisfaction, we deliver expert services in PR, email & LinkedIn outreach, AI appointment setting, and marketing automation. Trust us to optimize your digital presence and drive sustainable growth.</>,
     btn_text: "Book an Expert Call"
 }
@@ -61,7 +61,7 @@ const {card_images, title, description, btn_text}  = card_content
 const CardArea = ({style_service}) => {
     return (
         <>
-        <div className="tp-card-area tp-card-space pt-175 pb-185">
+        <div className="tp-card-area tp-card-space pt-175">
                <div className="container">
                   <div className="row">
                      <div className="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">

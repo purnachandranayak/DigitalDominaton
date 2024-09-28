@@ -7,7 +7,7 @@ import service_img_2 from "../../../../public/assets/img/service/service-shape-3
 import Image from "next/legacy/image";
 
 const service_content = {
-   title: <>What We <br /> <span>Offer.</span></>,
+   title: <>What we <span>offer.</span></>,
    btn_text: <>Discover Now</>,
 
    bg_img: "/assets/img/service/service-3-bg.png",

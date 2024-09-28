@@ -23,7 +23,7 @@ const footer_content = {
             id: 1,
             cls_1: "col-xl-3 col-lg-3",
             cls_2: "footer-col-3-2",
-            title: "Navigation",
+            title: "Useful links",
             delay: ".7s",
             links: [
                 {name: "Home", link: "#"},
@@ -37,7 +37,7 @@ const footer_content = {
             id: 2,
             cls_1: "col-xl-2 col-lg-2",
             cls_2: "footer-col-3-3",
-            title: "Other Pages",
+            title: "Services",
             delay: ".9s",
             links: [
                { link: "/#", title: "Email Account Setup" },
@@ -115,7 +115,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                         } 
                         <div className="col-xl-4 col-lg-4 col-md-6 pb-30  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
                            <div className="tp-footer__widget footer-widget-3 footer-widget-5 footer-col-3-4">
-                              <h4 className="tp-footer__widget-title">Our Newsletter</h4>
+                              <h4 className="tp-footer__widget-title">Our newsletter</h4>
                               <div className="tp-footer__input mb-35 p-relative">
                                  <form onSubmit={e => e.preventDefault()}>
                                     <input type="text" placeholder="Business email adress" />

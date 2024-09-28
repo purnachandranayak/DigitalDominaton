@@ -30,7 +30,7 @@ const rated_content = {
         },
     ],
     bg_img: "/assets/img/rate/rated-bg.jpg",
-    title: <>Book a <span>Discovery Call</span><br /></>,
+    title: <>Book a <span>discovery call</span><br /></>,
 };
 
 const { author, bg_img, title } = rated_content;

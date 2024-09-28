@@ -19,8 +19,8 @@ import slider_img_2_6 from "../../../../public/assets/img/integration/Cloud-Solu
 
 const integration_content ={
     sub_title: "Integrations",
-    title: <>Easily Integrates With Your <span>Technology Stack</span></>,
-    int_title: <>Integrated with Your Favourite Apps</>,
+    title: <>Easily integrates with your <span>technology stack</span></>,
+    int_title: <>Integrated with your favourite apps</>,
     btn_text: "Book A Call",
     bg_img: "/assets/img/integration/integration-bg.jpg"
 }

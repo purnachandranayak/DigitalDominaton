@@ -4,15 +4,12 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import NavMenu from './nav-menu';
 import Image from 'next/legacy/image';
-import { FaMoon, FaSun } from 'react-icons/fa';
-import { useTheme } from 'next-themes'; // Import useTheme
 
 import logo from "../../../public/assets/img/logo/logo-dark.svg";
 
 const HeaderThree = () => {
     const { sticky } = useSticky();
     const [sidebarOpen, setSidebarOpen] = useState(false);
-    const { theme, setTheme } = useTheme(); // Hook from next-themes
 
     return (
         <>
@@ -39,14 +36,6 @@ const HeaderThree = () => {
                                             <span>Get Started</span>
                                             <b></b>
                                         </Link>
-                                        {/* Theme Toggle Button */}
-                                        <button
-                                            className="theme-toggle-btn"
-                                            onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')} // Toggle theme
-                                            aria-label="Toggle Dark Mode"
-                                        >
-                                            {theme === 'dark' ? <FaSun /> : <FaMoon />}
-                                        </button>
                                         <a className="header-bottom__bar tp-menu-bar d-lg-none" onClick={() => setSidebarOpen(true)}>
                                             <i className="fal fa-bars"></i>
                                         </a>
@@ -58,18 +47,6 @@ const HeaderThree = () => {
                 </div>
             </header>
             <Offcanvus sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
-
-            {/* Dark/Light Mode CSS */}
-            <style jsx>{`
-                .theme-toggle-btn {
-                    background: none;
-                    border: none;
-                    font-size: 1.5rem;
-                    color: inherit;
-                    margin-left: 10px;
-                    cursor: pointer;
-                }
-            `}</style>
         </>
     );
 };
