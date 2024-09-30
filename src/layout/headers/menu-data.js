@@ -65,7 +65,7 @@ const menu_data = [
     sub_menus: [
       { link: "/", title: "Testemonials" },
       { link: "/", title: "Team" },
-      { link: "/", title: "Career" },
+      { link: "/career", title: "Career" },
     ],
   },
 ];

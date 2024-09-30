@@ -55,7 +55,7 @@
         font-size: 50px;
     }
     @media #{$md}{
-        font-size: 53px;
+        font-size: 45px;
     }
     @media #{$xs}{
         font-size: 35px;
@@ -64,17 +64,20 @@
         }
     }
     @media #{$sm}{
-        font-size: 38px;
+        font-size: 30px;
         & br{
             display: none;
         }
     }
     & span{
-        font-family: 'Poppins', sans-serif;
-        font-style: italic;
-        font-weight: 400;
+        // font-family: 'Poppins', sans-serif;
+        // font-style: italic;
+        // font-weight: 400;
         color: #f34345;
     }
+}
+.tp-section-title-3.white {
+    color: white;
 }
 .tp-section-title-4{
     font-weight: 700;

@@ -23,8 +23,8 @@ import brand_img_8 from "../../../../public/assets/img/brand/preloader.webp";
 import brand_img_9 from "../../../../public/assets/img/brand/newtra.png";
 
 const hero_content = { 
-   title_1: <><span>Supercharge</span> your <span>B2B</span></>,
-   title_2: <>sales pipeline with <br /><span>qualified leads</span></>,
+   title_1: <>Supercharge your <span>B2B</span> <br /> sales pipeline with <br /> qualified <span>leads</span></>,
+//    title_2: <>sales pipeline with <br /><span>qualified leads</span></>,
    info: <>We specialize in filling your sales pipeline with qualified prospects using <br/>cutting-edge outbound strategies.</>,
    btn_1: "Get Started",
    btn_2: "Book A Free Consultation",
@@ -87,7 +87,7 @@ const HeroArea = () => {
                            <div className="tp-hero-title-box text-center">
                                <h2 className="tp-hero-title-3 hero-text-anim pb-5">
                                    <i><i className="child-1">{title_1}</i></i>
-                                   <i><i className="child-1">{title_2}</i></i>
+                                   {/* <i><i className="child-1">{title_2}</i></i> */}
                                </h2>
                                <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">{info}</p>
                            </div>
