@@ -8,9 +8,9 @@ import Image from "next/legacy/image";
 
 
 const contact_content  = {
-    sub_title: "CONTACT US",
-    tilte: <>Book a <br /> Discovery {" "}<span> <SendIcon /> </span> {" "}call.</>,
-    info: <>While we're good with smoke signals, there <br /> are easier ways to get in touch.</> ,
+    sub_title: "👋 Get in touch",
+    tilte: <>Don’t hesitate to reach out</>,
+    info: <>We work M-F 8 am - 3 pm EST. We will try to answer your query within the same day. However, please allow us 24 hours as a buffer. </> ,
      
 }
 const {sub_title, tilte, info}  =  contact_content

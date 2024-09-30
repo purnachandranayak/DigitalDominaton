@@ -1,4 +1,5 @@
 import Breadcrumb from "@/common/breadcrumbs/breadcrumb";
+import FooterThree from "@/layout/footers/footer-3";
 import HeroBanner from "@/common/hero-banner";
 import FooterFive from "@/layout/footers/footer-5";
 import HeaderSix from "@/layout/headers/header-6";
@@ -20,13 +21,13 @@ const Service = () => {
             <Breadcrumb title_top={"Our Top"} title_bottom={"Service"} />
             <HeroBanner title="Our Top" subtitle="Service" bg_img="/assets/img/breadcrumb/breadcrumb-2.jpg" />
             <ServiceArea /> 
-            <CardArea style_service={true} />
-            <SalesArea style_service={true} />
+            {/* <CardArea style_service={true} />
+            <SalesArea style_service={true} /> */}
             <TestimonialArea />
             <FaqArea style_service={true} />
             <CtaArea />
           </main>
-          <FooterFive style_contact={true} style_team={true} />
+          <FooterThree/>
         </div>
       </div>
     </>

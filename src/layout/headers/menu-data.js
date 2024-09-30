@@ -4,7 +4,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Our Services",
-    link: "/",
+    link: "/service",
     active: "active",
     sub_menus: [
       { link: "/#", title: "Email Account Setup" },

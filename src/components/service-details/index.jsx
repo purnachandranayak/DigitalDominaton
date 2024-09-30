@@ -4,6 +4,7 @@ import FooterFive from "@/layout/footers/footer-5";
 import HeaderSix from "@/layout/headers/header-6";
 import React from "react";
 import ServiceDetailsArea from "./service-details-area";
+import FooterThree from "@/layout/footers/footer-3";
 
 const ServiceDetails = () => {
   return (
@@ -16,7 +17,7 @@ const ServiceDetails = () => {
             <ServiceDetailsArea />
             <TestimonialArea />
           </main>
-          <FooterFive style_contact={true} style_team={true} bg_style={false} />
+          <FooterThree />
         </div>
       </div>
     </>

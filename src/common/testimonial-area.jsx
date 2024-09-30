@@ -12,53 +12,29 @@ const testimonial_content = {
 const { bg_img, sub_title, title } = testimonial_content
 
 // setting 
-const setting = {
-   loop: true,
-   slidesPerView: 4,
-   spaceBetween: 30,
-   breakpoints: {
-      '1200': {
-         slidesPerView: 4,
-      },
-      '992': {
-         slidesPerView: 3,
-      },
-      '768': {
-         slidesPerView: 3,
-      },
-      '576': {
-         slidesPerView: 1,
-      },
-      '0': {
-         slidesPerView: 1,
-      },
-   },
-   scrollbar: {
-      el: ".tp-scrollbar",
-      clickable: true,
-   },
-   navigation: {
-      nextEl: '.test-prev',
-      prevEl: '.test-next',
-   },
-}
-
 const TestimonialArea = () => {
+   useEffect(() => {
+       // Create the script element
+       const script = document.createElement('script');
+       script.src = "https://embed.socialjuice.io/js/iframeResizer.min.js";
+       script.async = true;
+       script.onload = () => {
+           // Call iFrameResize after the script has loaded
+           window.iFrameResize({ log: false, checkOrigin: false }, "#socialjuice-carousel-digital-domination-4922");
+       };
 
-   const [isDragged, setIsDragged] = useState(false);
+       // Append the script to the document
+       document.body.appendChild(script);
 
-   const handleSlideChange = () => {
-      setIsDragged(true);
-   };
-
-   const handleTransitionEnd = () => {
-      setIsDragged(false);
-   };
+       return () => {
+           // Cleanup: remove the script when component unmounts
+           document.body.removeChild(script);
+       };
+   }, []);
 
    return (
       <>
-         <div className="tp-testimonial-area pt-130 pb-130 fix"
-            style={{ backgroundImage: `url(${bg_img})` }}
+         <div className="tp-testimonial-area pt-130 pb-60 fix background-000229"
          >
             <div className="container">
                <div className="row align-items-end tp-testimonial-five-section-space">
@@ -84,37 +60,18 @@ const TestimonialArea = () => {
                <div className="row g-0">
                   <div className="col-12">
                      <div className="tp-testimonial-five-slider-section">
-                        <Swiper
-                           {...setting}
-                           onSliderMove={handleSlideChange}
-                           onTransitionEnd={handleTransitionEnd}
-                           modules={[Navigation, Scrollbar]}
-                           className={`swiper-container testimonial-five-slider-active ${isDragged ? "dragged" : ""
-                              }`}>
-                           {testimonial_data.slice(12, 25).map((item, i) =>
-                              <SwiperSlide key={i} className="tp-testimonial-five-item">
-                                 <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
-                                    <div className="tp-testimonial-five-top-info d-flex align-items-center">
-                                       <div className="tp-testimonial-five-avata">
-                                          <Image src={item.author_img} alt="theme-pure" />
-                                       </div>
-                                       <div className="tp-testimonial-five-author-info">
-                                          <h4>{item.name}</h4>
-                                          <span>{item.title}</span>
-                                       </div>
+                     <div className="iframe-wrapper" style={{ height: '400px', width: '100%' }}>
+                                        <iframe
+                                            id="socialjuice-carousel-digital-domination-4922"
+                                            src="https://embed.socialjuice.io/carousel/6988?s=digital-domination&id=4922&custom=true"
+                                            allowFullScreen
+                                            allowTransparency="true"
+                                            frameBorder="0"
+                                            scrolling="no"
+                                            width="100%"
+                                            height="400px"
+                                        ></iframe>
                                     </div>
-                                    <div className="tp-testimonial-five-brand d-none d-sm-block">
-                                       <Image src={item.brand_icon} alt="theme-pure" />
-                                    </div>
-                                 </div>
-                                 <div className="tp-testimonial-five-content">
-                                    <p>{item.description}</p>
-                                 </div>
-                              </SwiperSlide>
-                           )
-                           }
-                        </Swiper>
-                        <div className="tp-scrollbar"></div>
                      </div>
                   </div>
                </div>

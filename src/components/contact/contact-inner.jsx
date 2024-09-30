@@ -1,78 +1,63 @@
-import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
 
-
-import icon_1 from "../../../public/assets/img/contact/contact-icon-sm-1.png";
-import icon_2 from "../../../public/assets/img/contact/contact-icon-sm-2.png";
-import icon_3 from "../../../public/assets/img/contact/chat.png";
-
-
 const inner_content = {
   title: "Book a Demo!",
-  description: <>We will contact again after receive your request in 24h</>,
+  description: <>We will contact you again after receiving your request within 24 hours.</>,
 
   contact_data: [
     {
       id: 1,
-      icon: icon_1,
-      title: "support@digitaldomination.io",
-      link: "mailto:support@digitaldomination.io",
+      title: "Email",
+      info: "support@digitaldomination.io",
+      icon: "fas fa-envelope",
     },
     {
       id: 2,
-      icon: icon_2,
-      title: "+1 888 543 4316",
-      link: "tel:+1-888-543-4316",
+      title: "Phone",
+      info: "+1 505 477 7357",
+      icon: "fa fa-phone",
     },
     {
       id: 3,
-      icon: icon_3,
-      title: "Initiate Chat",
-      link: "https://www.digitaldomination.io/schedule#live-chat",
+      title: "USA",
+      info: "1209 Mountain Road PL NE, STE R, Albuquerque, 87110",
+      icon: "fas fa-location-arrow", // You can change this to another icon if needed
+    },
+    {
+      id: 4,
+      title: "INDIA",
+      info: "P No 1477/6705, Opp Sneha Filling, Odisha 767033",
+      icon: "fas fa-location-arrow", // You can change this to another icon if needed
     },
   ],
 };
+
 const { title, description, contact_data } = inner_content;
 
 const ContactInner = () => {
   return (
-    <>
-      <div className="contact-inner-area pb-130">
-        <div className="container">
-          {/* <div className="row">
-            <div className="col-xl-12">
-              <div className="contact-inner-title-sm-wrap text-center mb-50">
-                <h4 className="contact-inner-title-sm">{title}</h4>
-                <p>{description}</p>
-              </div>
-            </div>
-          </div> */}
-          <div className="contact-inner-wrapper">
-            <div className="row gx-0">
-              {contact_data.map((item, i) => (
-                <div key={i} className="col-xl-4 col-lg-4">
-                  <div className="contact-inner-item d-flex align-items-center justify-content-center">
-                    <div className="contact-inner-img contact-img-1">
-                      <Image 
-                          src={item.icon} 
-                          alt="theme-pure" 
-                          width={69} 
-                          height={37} 
-                          style={{ maxHeight: '37px', maxWidth: '69px', height: 'auto', width: 'auto' }} 
-                        />                    
-                    </div>
-                    <div className="contact-inner-link">
-                      <Link href={`${item.link}`}>{item.title}</Link>
-                    </div>
+    <div className="contact-inner-area pb-130">
+      <div className="container">
+        <div className="contact-inner-wrapper">
+          <div className="row gx-0">
+            {contact_data.map((item) => (
+              <div key={item.id} className="col-xl-6 col-lg-6">
+                <div className="contact-inner-item d-flex align-items-start">
+                  <div className="contact-icon me-3">
+                    <i className={item.icon} style={{ color: "#f44336", fontSize: "1.5rem" }} />
+                  </div>
+                  <div className="contact-info d-flex flex-column">
+                    <h5>{item.title}</h5>
+                    <p>{item.info}</p>
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
-      </div> 
-    </>
+      </div>
+    </div>
   );
 };
 

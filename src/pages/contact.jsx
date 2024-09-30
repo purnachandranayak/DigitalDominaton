@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Contact Us - Digital Domination"} />
+      <SEO pageTitle={"Contact Us - Digital Domination"} pageDescription={"Contact us using the form below for questions, feedbacks and enquiries you might have. Allow us 24 hours time Mon - Fri to get back to you."}></SEO>
       <Contact />
     </Wrapper>
   );

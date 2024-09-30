@@ -9,7 +9,7 @@ import service_icon_2 from "../../../public/assets/img/service/service-shape-3-1
 
 const service_content = {
     title: <>Accounting Software <br /> That Handles it All.</>,
-    btn_text: <>See All Features</>,
+   //  btn_text: <>See All Features</>,
  
     bg_img: "/assets/img/service/service-3-bg.png",
     service_title: "CRM Management",
@@ -25,16 +25,10 @@ const ServiceArea = () => {
                <div className="container">
                   <div className="row">
                      <div className="col-xl-12">
-                        <div className="tp-service-section-wrapper mb-60 d-flex justify-content-between align-items-end">
+                        {/* <div className="tp-service-section-wrapper mb-60 d-flex justify-content-between align-items-end">
                            <h3 className="tp-section-title tp-title-anim">{title}</h3>
-                              <Link className="tp-btn-inner tp-btn-hover alt-color-black wow tpfadeRight" 
-                                 data-wow-duration=".9s" 
-                                 data-wow-delay=".3s" 
-                                 href="/">
-                                 <span>{btn_text}</span>
-                                 <b></b>
-                              </Link>
-                        </div>
+                              
+                        </div> */}
                      </div>
                   </div>
                   <div className="row">

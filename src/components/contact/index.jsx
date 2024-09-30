@@ -1,4 +1,3 @@
-import FooterFive from "@/layout/footers/footer-5";
 import HeaderSix from "@/layout/headers/header-6";
 import React from "react";
 import Breadcrumb from "../../common/breadcrumbs/breadcrumb";
@@ -6,6 +5,7 @@ import ContactFormArea from "./contact-form-area";
 import ContactInner from "./contact-inner";
 import CtaArea from "./cta-area";
 import HeroBanner from "../../common/hero-banner";
+import FooterThree from "@/layout/footers/footer-3";
 // import OfficeLocation from "./office-location";
 
 const Contact = () => {
@@ -20,9 +20,9 @@ const Contact = () => {
             {/* <OfficeLocation /> */}
             <ContactFormArea />
             <ContactInner />
-            <CtaArea />
+            {/* <CtaArea /> */}
           </main>
-          <FooterFive style_contact={true} style_team={true} />
+          <FooterThree style_contact={true} style_team={true} />
         </div>
       </div>
     </>

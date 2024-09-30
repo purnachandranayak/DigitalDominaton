@@ -4,7 +4,7 @@ import React,{useState} from 'react';
 import Image from "next/legacy/image";
 import NavMenu from './nav-menu';
 // logo 
-import logo_white from "../../../public/assets/img/logo/logo-white.png";
+import logo_white from "../../../public/assets/img/logo/logo-light.svg";
 
 
 const HeaderSeven = () => {

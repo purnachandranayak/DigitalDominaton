@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Outbound Aficionados |  Digital Domination "} />
+      <SEO pageTitle={"Outbound Aficionados |  Digital Domination "} pageDescription={"Consistently adding 50-150 qualified meetings monthly to your sales pipeline, using outbound strategies such as LinkedIn and email outreach."}></SEO>
       <HomeThree />
     </Wrapper>
   );

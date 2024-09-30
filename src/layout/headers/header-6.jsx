@@ -8,7 +8,7 @@ import NavMenu from './nav-menu';
 
 
 import logo_black from "../../../public/assets/img/logo/logo-dark.svg";
-import logo_white from "../../../public/assets/img/logo/logo-dark.svg";
+import logo_white from "../../../public/assets/img/logo/logo-light.svg";
 
 
 const HeaderSix = ({ style_2 = false }) => {
@@ -43,14 +43,9 @@ const HeaderSix = ({ style_2 = false }) => {
                      </div>
                      <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
                         <div className="header-bottom__right d-flex align-items-center justify-content-end">
-                           <div className="header-bottom__action header-bottom__action-4 d-none d-xl-block">
-                              <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/register">
-                                 <UserIcon />
-                                 {/* <span>Log In</span> */}
-                              </Link>
-                           </div>
+                           
                            <div className="header-bottom__btn d-flex align-items-center">
-                              <Link className={`${style_2 ? 'tp-btn-inner alt-color-orange' : 'tp-btn-white alt-color-black'} tp-btn-hover d-none d-md-inline-block`} href="/">
+                              <Link className={`${style_2 ? 'tp-btn-inner alt-color-orange' : 'tp-btn-white alt-color-black'} tp-btn-hover d-none d-md-inline-block`} href="/contact">
                                  <span className="white-text">Get Started</span>
                                  <b></b>
                               </Link>
