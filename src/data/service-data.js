@@ -85,6 +85,7 @@ const  service_data = [
         title: "Email & LinkedIn Outreach",
         description: <>Drive engagement and cultivate relationships through targeted email and LinkedIn campaigns designed for maximum impact and connection.</>,
         delay: ".9s",
+        url: "/email-outreach",
     },
     {
         id: 7,
@@ -93,6 +94,7 @@ const  service_data = [
         title: "AI Appointment Setting",
         description: <>Streamline scheduling with AI, ensuring seamless management and optimal customer interaction for enhanced efficiency and satisfaction.</>,
         delay: ".9s",
+        url: "/ai-appointment-setting",
     },
     {
         id: 8,
@@ -101,6 +103,7 @@ const  service_data = [
         title: "Marketing Automation",
         description: <>Boost productivity and ROI with automated tools that streamline workflows, nurture leads, and optimize marketing campaigns across digital channels.</>,
         delay: ".9s",
+        url: "/marketing-automation",
     },
     {
         id: 9,
@@ -109,6 +112,7 @@ const  service_data = [
         title: "PR Services",
         description: <>Shape your digital narrative with tailored strategies that enhance visibility, credibility, and engagement across online platforms and media.</>,
         delay: ".9s",
+        url: "http://prdomination.com",
     },
     
     // for home 04

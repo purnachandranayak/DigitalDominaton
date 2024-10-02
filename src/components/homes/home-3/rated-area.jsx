@@ -52,7 +52,7 @@ const RatedArea = () => {
     return (
         <>
             <div className="tp-rated-area fix p-relative">
-               <div className="tp-rated-bg pt-120" style={{backgroundImage: `url(${bg_img})`}}>
+               <div className="tp-rated-bg pt-120 pb-80" style={{backgroundImage: `url(${bg_img})`}}>
                   <div className="tp-rated-shape-1 d-none d-lg-block">
                      <Image src={img_1} alt="theme-pure"/>
                   </div>

@@ -126,7 +126,7 @@
                     border-radius: 50%;
                     font-size: 8px;
                     color: var(--tp-common-white);
-                    background-color: var(--tp-common-red);
+                    background-color: #ef4444;
                     font-weight: 400;
                 }
             }
@@ -327,7 +327,7 @@
                 font-weight: 400;
                 font-size: 30px;
                 line-height: 36px;
-                color: #6B14FA;
+                color: #ef4444;
                 font-style: normal;
             }
         }
@@ -347,6 +347,11 @@
     &-border-none{
         border-right: none;
     }
+}
+
+.ab-company-video a {
+    background-color: #000229;
+    color: white;
 }
 
 .tp-team-inner-section{

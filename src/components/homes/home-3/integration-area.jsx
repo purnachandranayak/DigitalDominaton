@@ -150,7 +150,7 @@ const IntegrationArea = ({style_integraton}) => {
                      </div>
                      <div className="col-xl-6 col-lg-4 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".7s">
                         <div className="tp-integration-btn text-lg-end text-start">
-                           <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="/">
+                           <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="/schedule">
                               <span>{btn_text}</span>
                               <b></b>
                            </Link>

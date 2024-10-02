@@ -6,10 +6,10 @@ import React from 'react';
 import img from "../../../../public/assets/img/faq/faq-1.png" 
 
 const faq_content = {
-    sub_title: "Support",
-    title: <>Frequently <br /> Asked Questions</>,
-    description: <>Sed ut perspiciatis unde omnis iste natus error <br /> sit voluptatem accusantium.!</>,
-    btn_text: "Get in Touch",
+    sub_title: "Why Us",
+    title: <>Let's turn your vision into a masterpiece.</>,
+    description: <>We understand how crucial it is to stay ahead of the curve in the digital industry. To offer our clients innovative solutions that give them a competitive edge, we conduct ongoing research into new technologies, techniques, and strategies. Not only will you receive a service, but also a partner committed to your company's growth.</>,
+    btn_text: "Book a Call",
 }
 const {sub_title, title, description, btn_text }  = faq_content
 
@@ -30,7 +30,7 @@ const FaqArea = ({style_service}) => {
                            </div>
                            <div className="tp-faq-btn">
                               <Link className={`${style_service ? "tp-btn-inner tp-btn-hover alt-color-black" : "tp-btn-green"} `} 
-                                  href="/contact">
+                                  href="/schedule">
                                     {btn_text}
                               </Link>
                            </div>

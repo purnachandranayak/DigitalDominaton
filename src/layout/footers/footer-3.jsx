@@ -27,26 +27,31 @@ const footer_content = {
             title: "Useful links",
             delay: ".7s",
             links: [
-                {name: "Home", link: "#"},
-                {name: "About", link: "/"},
-                {name: "Services", link: "/"},
-                {name: "Blog", link: "/"},
-                {name: "Contact", link: "/"},
+                {name: "About", link: "/about-us"},
+                {name: "Pricing", link: "/pricing"},
+                {name: "Career", link: "career"},
+                {name: "Terms & Conditions", link: "/terms-and-conditions"},
+                {name: "Privacy Policy", link: "/privacy-policy"},
+                {name: "Refund Policy", link: "/refund-policy"},
+                { link: "/contact", name: "Contact" },
+                { link: "/account-setup-services", name: "Account Setup Services" },
             ]
         },
         {
             id: 2,
             cls_1: "col-xl-2 col-lg-2",
             cls_2: "footer-col-3-3",
-            title: "Services",
+            title: "Additional",
             delay: ".9s",
             links: [
-                { link: "/#", name: "Email Account Setup" },
-                { link: "/#", name: "Email Outreach" },
-                { link: "/#", name: "PR Services" },
-                { link: "/#", name: "Linkedin Outreach" },
-                { link: "/#", name: "AI Appointment Setting" },
-                { link: "/#", name: "Automation Services" },
+                
+                { link: "/email-outreach", name: "Email Outreach" },
+                { link: "/linkedin-outreach", name: "Linkedin Outreach" },
+                { link: "/ai-appointment-setting", name: "AI Appointment Setting" },
+                { link: "/marketing-automation", name: "Marketing Automation" },
+                { link: "https://www.prdomination.com/", name: "PR Services" },
+                { link: "https://www.digitaldomination.io/blog", name: "Blogs" },
+                { link: "https://www.digitaldomination.io/case-studies", name: "Case Study" },
             ]
         },
 

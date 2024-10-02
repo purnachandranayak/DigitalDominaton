@@ -1,9 +1,8 @@
 const answer_question_data = [
   {
     id: 1,
-    question: "Why should I choose Digital Domination ?",
-    answer: <>The Digital Domination  Shop is built right into your account dashboard, and is accessible
-          immediately after signing up. </> ,
+    question: "Competitive Pricing",
+    answer: <>We offer our top-quality services at competitive prices, providing you with great value for your investment.</> ,
     accordion_id: "headingOne",
     collapsed: "collapsed",
     data_bs_target: "#collapseOne",
@@ -12,9 +11,8 @@ const answer_question_data = [
   },
   {
     id: 2,
-    question: "Do I need to change banks??",
-    answer: <>The Digital Domination  Shop is built right into your account dashboard, and is accessible
-          immediately after signing up. </> ,
+    question: "Tailor-made Strategies",
+    answer: <>We don't believe in one-size-fits-all solutions. Every solution we offer is made to fit your business's needs and goals.</> ,
     accordion_id: "headingTwo",
     collapsed: "",
     data_bs_target: "#collapseTwo",
@@ -26,9 +24,8 @@ const answer_question_data = [
   },
   {
     id: 3,
-    question: "How can I order equipment?",
-    answer: <>The Digital Domination  Shop is built right into your account dashboard, and is accessible
-    immediately after signing up. </> ,
+    question: "Data-driven Approach",
+    answer: <>We leverage data and insights to make informed decisions that lead to more effective and efficient solutions. </> ,
     accordion_id: "headingThree",
     collapsed: "collapsed",
     data_bs_target: "#collapseThree",
@@ -38,9 +35,8 @@ const answer_question_data = [
   },
   {
     id: 4,
-    question: "Do you offer volume discounts?",
-    answer: <>The Digital Domination  Shop is built right into your account dashboard, and is accessible
-          immediately after signing up. </> ,
+    question: "Customer-centric Focus",
+    answer: <>We put our clients at the heart of everything we do, creating solutions that resonate with your audience and drive engagement.</> ,
     accordion_id: "headingFour",
     collapsed: "collapsed",
     data_bs_target: "#collapseFour",
@@ -48,17 +44,17 @@ const answer_question_data = [
     actice: "",
 
   },
-  {
-    id: 5,
-    question: "How does signing up work?",
-    answer: <>The Digital Domination  Shop is built right into your account dashboard, and is accessible
-    immediately after signing up. </> ,
-    accordion_id: "headingFive",
-    collapsed: "collapsed",
-    data_bs_target: "#collapseFive",
-    aria_controls: "collapseFive", 
-    actice: "",
+  // {
+  //   id: 5,
+  //   question: "How does signing up work?",
+  //   answer: <>The Digital Domination  Shop is built right into your account dashboard, and is accessible
+  //   immediately after signing up. </> ,
+  //   accordion_id: "headingFive",
+  //   collapsed: "collapsed",
+  //   data_bs_target: "#collapseFive",
+  //   aria_controls: "collapseFive", 
+  //   actice: "",
 
-  }, 
+  // }, 
 ];
 export default answer_question_data;

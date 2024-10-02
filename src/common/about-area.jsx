@@ -40,15 +40,15 @@ const about_data =[
 
 // about content
 const about_content = {
-    title: "OVER 150K+ CLIENT",
-    sub_title: "We Offer Real Time Data Solutions", 
-    des: <>Excepteur sint occaecat cupidatat officia non proident <br />
-    sunt in culpa qui deserunt.!</>,
+    title: "Key Benefits",
+    sub_title: "Competitive pricing for exceptional value.", 
+    des: <>Our client-centric approach, coupled with our dedication to delivering exceptional results, ensures that your business stands out, attracting attention and driving engagement.</>,
 
     about_list: [
-        <>Various analysis options.</>,
-        <>Page Load (time, size, number of requests).</>,
-        <> Big data analysis.</>,
+        <>Access to a team of seasoned industry professionals.</>,
+        <>High-quality deliverables ensuring client satisfaction.</>,
+        <>Timely project completion with no compromise.</>,
+        <>Ongoing support and assistance after completion.</>,
     ],
     btn_text: "About Us",
 
@@ -83,12 +83,12 @@ const AboutArea = () => {
                                 {about_list.map((item , i)  =>  <li key={i}><i className="fal fa-check"></i>{item}</li>)}
                               </ul>
                            </div>
-                           <div className="tp-about__btn">
+                           {/* <div className="tp-about__btn">
                               <Link className="tp-btn tp-btn-hover alt-color-black" href="/about">
                                  <span>{btn_text}</span>
                                  <b></b>
                               </Link>
-                           </div>
+                           </div> */}
                         </div>
                      </div>
                   </div>

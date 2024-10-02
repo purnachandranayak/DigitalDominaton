@@ -34,7 +34,7 @@ const  ServiceArea = () => {
                            </h3>
                            <Link className="tp-btn-blue-lg tp-btn-hover mb-10 alt-color-black wow tpfadeRight" 
                            data-wow-duration=".9s" 
-                           data-wow-delay=".5s" href="/"
+                           data-wow-delay=".5s" href="/service"
                            >
                               <span>{btn_text}</span>
                               <b></b>
@@ -74,9 +74,9 @@ const  ServiceArea = () => {
                            </div>
                            <div className="tp-service-sm-content">
                               <span>{item.title}</span>
-                              <h3 className="tp-service-sm-title"><Link href="/">{item.description} </Link></h3>
+                              <h3 className="tp-service-sm-title"><Link href={item.url} >{item.description} </Link></h3>
                               <div className="tp-service-sm-link">
-                                 <Link href="/">Learn More <i className="far fa-arrow-right"></i></Link>
+                                 <Link href={item.url}>Learn More <i className="far fa-arrow-right"></i></Link>
                               </div>
                            </div>
                         </div>

@@ -27,7 +27,7 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                         <MobileMenus />
                     </div>
                     <div className="tpoffcanvas__instagram text-center">
-                    <div className="tpoffcanvas__instagram-title">
+                    {/* <div className="tpoffcanvas__instagram-title">
                         <h4>instagram</h4>
                     </div>  
                     <Link href="#"><Image src={canvus_img_1}  alt="theme-pure" /></Link>
@@ -48,7 +48,7 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                         <Link href="#"><i className="fab fa-instagram"></i></Link>
                         <Link href="#"><i className="fab fa-facebook-square"></i></Link>
                         <Link href="#"><i className="fab fa-dribbble"></i></Link>
-                    </div>
+                    </div> */}
                     </div>
                 </div>
             </div>

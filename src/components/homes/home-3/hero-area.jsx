@@ -93,11 +93,11 @@ const HeroArea = () => {
                            </div>
  
                            <div className="tp-hero-btn-3 text-center wow tpfadeUp" data-wow-duration="1s" data-wow-delay=".9s">
-                               <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="#">
+                               <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="/contact">
                                    <span>{btn_1}</span>
                                    <b></b>
                                </Link>
-                               <Link className="tp-btn-border tp-btn-hover alt-color-black" href="#">
+                               <Link className="tp-btn-border tp-btn-hover alt-color-black" href="/schedule">
                                    <span>{btn_2}</span>
                                    <b></b>
                                </Link>

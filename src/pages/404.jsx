@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import SEO from "../common/seo";
-import Footer from "../layout/footers/footer-5";
-import HeaderFour from "../layout/headers/header-4";
+import Footer from "../layout/footers/footer-3";
+import HeaderFour from "../layout/headers/header-3";
 
 // error shape import here 
 import error_shape_1 from "../../public/assets/img/login/error-shape.png";

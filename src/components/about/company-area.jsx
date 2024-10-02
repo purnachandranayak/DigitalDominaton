@@ -2,10 +2,10 @@ import VideoPopup from '@/modals/video-popup';
 import React,{useState} from 'react';
 
 const company_content ={
-    sub_title:  "ABOUT THE COMPANY",
-    title: <> Digital Domination  is Made <br />For the Creator.</>,
-    info_1: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum arcu sollicitudin viverra sit elit leo in. Vitae eu tellus mattis quis. Eu, tempus donec nam mauris egestas. Id aliquet ultricies ligula tellus arcu dolor. Massa arcu pulvinar in mattis</>,
-    info_2: <>Feugiat purus congue risus, blandit a sed. In aenean quam aenean purus dictum pellentesque consequat.!</>,
+    sub_title:  "Who We Are",
+    title: <> Experience a new dimension of digital excellence.</>,
+    info_1: <>Since our inception, we have been driven by one mission - to empower businesses to achieve their full potential in the digital era. We have worked with hundreds of clients across industries, delivering tailor-made solutions that drive growth, boost engagement, and generate value.    </>,
+    info_2: <>We provide a range of top-tier digital services under one roof.</>,
     info_3: <>Our clean and simple APIs and transparent SaaS model will give you complete peace of mind.</>,
 }
 const {sub_title, title, info_1, info_2, info_3}  = company_content
@@ -29,8 +29,13 @@ const CompanyArea = () => {
                         <div className="ab-company-right">
                            <div className="ab-company-section-text">
                               <p className="pb-10">{info_1}</p>
-                              <p className="pb-10">{info_2}</p>
-                              <p><span>{info_3}</span></p>
+                              <div className="tp-about__list">
+                                 <ul>
+                                    <li><i className="fal fa-check"></i>We provide a range of top-tier digital services under one roof.</li>
+                                    <li><i className="fal fa-check"></i>Our team of professionals brings a wealth of industry experience.</li>
+                                    <li><i className="fal fa-check"></i>We are dedicated to delivering superior quality in every project.</li>
+                                 </ul>
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -50,9 +55,9 @@ const CompanyArea = () => {
                            <div className="col-md-4 col-sm-4 mb-40">
                               <div className="ab-company-fun-fact-wrap d-flex justify-content-start">
                                  <div className="ab-company-fun-fact">
-                                    <span>USED BY</span>
-                                    <h4>11,000<em>+</em></h4>
-                                    <p>Creators</p>
+                                    {/* <span>USED BY</span> */}
+                                    <h4>400<em>+</em></h4>
+                                    <p>Five star rating!</p>
                                  </div>
                               </div>
                            </div>
@@ -60,18 +65,18 @@ const CompanyArea = () => {
                            <div className="col-md-4 col-sm-4 mb-40">
                               <div className="ab-company-fun-fact-wrap d-flex justify-content-md-center justify-content-left">
                                  <div className="ab-company-fun-fact">
-                                    <span>VALUE</span>
-                                    <h4>46<em>m</em></h4>
-                                    <p>Revenue per Year</p>
+                                    {/* <span>VALUE</span> */}
+                                    <h4>98<em>%</em></h4>
+                                    <p>Client retention!</p>
                                  </div>
                               </div>
                            </div>
                            <div className="col-md-4 col-sm-4 mb-40">
                               <div className="ab-company-fun-fact-wrap ab-company-border-none d-flex justify-content-md-center justify-content-left">
                                  <div className="ab-company-fun-fact">
-                                    <span>IN</span>
-                                    <h4>150<em>+</em></h4>
-                                    <p>Countries using</p>
+                                    {/* <span>IN</span> */}
+                                    <h4>2,600<em>+</em></h4>
+                                    <p>Successful campaigns</p>
                                  </div>
                               </div>
                            </div>
@@ -85,7 +90,7 @@ const CompanyArea = () => {
       <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={"EW4ZYb3mCZk"}
+        videoId={"vhO-ljSHxM8"}
       />
       {/* video modal end */}
         </>

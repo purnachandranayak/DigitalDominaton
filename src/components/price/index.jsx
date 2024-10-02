@@ -1,6 +1,6 @@
-import BreadcrumbFive from "@/common/breadcrumbs/breadcrumb-5";
+import Breadcrumb from "@/common/breadcrumbs/breadcrumb";
 import TestimonialArea from "@/common/testimonial-area";
-import FooterFive from "@/layout/footers/footer-5";
+import FooterThree from "@/layout/footers/footer-3";
 import HeaderSix from "@/layout/headers/header-6";
 import React from "react";
 import Brand from "../about/brand";
@@ -16,15 +16,15 @@ const Price = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbFive />
+          <Breadcrumb title_top={"Pricing"} title_bottom={"Plans"} />
             <PriceArea />
-            <PlanArea />
+            {/* <PlanArea /> */}
             <Brand />
             <TestimonialArea />
             <FaqArea style_service={true}/>
-             <CtaArea />
+            <CtaArea />
           </main>
-          <FooterFive style_contact={true} style_team={true}/>
+          <FooterThree/>
         </div>
       </div>
     </>
