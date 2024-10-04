@@ -8,7 +8,7 @@ import Image from "next/legacy/image";
 
 const service_content = {
    title: <>What we <span>offer.</span></>,
-   btn_text: <>Discover Now</>,
+   btn_text: <>Book A Discovery Call</>,
 
    bg_img: "/assets/img/service/service-3-bg.png",
    service_title: "How can we help your business?",
@@ -20,7 +20,7 @@ const {title, btn_text, bg_img, service_title, service_info}  = service_content
 const  ServiceArea = () => {
     return (
         <>
-            <div className="tp-service-area pb-90 z-index">
+            <div className="tp-service-area pb-90 pt-90 z-index">
                <div className="container">
 
                   <div className="row">
@@ -34,7 +34,7 @@ const  ServiceArea = () => {
                            </h3>
                            <Link className="tp-btn-blue-lg tp-btn-hover mb-10 alt-color-black wow tpfadeRight" 
                            data-wow-duration=".9s" 
-                           data-wow-delay=".5s" href="/service"
+                           data-wow-delay=".5s" href="/schedule"
                            >
                               <span>{btn_text}</span>
                               <b></b>
@@ -58,7 +58,7 @@ const  ServiceArea = () => {
                                  </Link></h4>
                            </div>
                            <div className="tp-service-3-btn">
-                              <Link className="tp-btn-white-solid" href="/">Learn More</Link>
+                              <Link className="tp-btn-white-solid" href="/schedule">Book A Discovery Call</Link>
                            </div>
                            <div className="tp-service-3-shape">
                               <Image src={service_img_2} alt="theme-pure" />

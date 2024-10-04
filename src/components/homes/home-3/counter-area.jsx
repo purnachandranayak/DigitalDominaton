@@ -18,7 +18,7 @@ const {counter_info}  = counter_content
 const CounterArea = () => {
     return (
       <>
-        <div className="tp-counter-area tp-counter-space p-relative pb-140">
+        <div className="tp-counter-area tp-counter-space p-relative pb-50">
           <div className="tp-counter-shape-2">
             <Image src={counter_shape_1} alt="theme-pure" />
           </div>

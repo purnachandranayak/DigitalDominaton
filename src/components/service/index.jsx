@@ -9,7 +9,7 @@ import SalesArea from "../../common/sales-area";
 import TestimonialArea from "../../common/testimonial-area";
 import CtaArea from "../contact/cta-area";
 import FaqArea from "../homes/home-2/faq-area";
-import ServiceArea from "./service-area";
+import ServiceArea from "../homes/home-3/service-area.jsx";
 
 const Service = () => {
   return (
@@ -18,11 +18,11 @@ const Service = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <Breadcrumb title_top={"Our Top"} title_bottom={"Service"} />
-            <HeroBanner title="Our Top" subtitle="Service" bg_img="/assets/img/breadcrumb/breadcrumb-2.jpg" />
-            <ServiceArea /> 
-            {/* <CardArea style_service={true} />
-            <SalesArea style_service={true} /> */}
+            <Breadcrumb title_top={"Our top"} title_bottom={"Services"} />
+            {/* <HeroBanner title="Our Top" subtitle="Service" bg_img="/assets/img/breadcrumb/breadcrumb-2.jpg" /> */}
+            <ServiceArea />
+            {/* <CardArea style_service={true} /> */}
+            <SalesArea style_service={true} />
             <TestimonialArea />
             <FaqArea style_service={true} />
             <CtaArea />

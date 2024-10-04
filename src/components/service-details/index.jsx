@@ -13,7 +13,7 @@ const ServiceDetails = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbTwo title="Web Design" innertitle="Help Desk Service Details" />
+            <BreadcrumbTwo title="Email Outreach" innertitle="Help Desk Service Details" />
             <ServiceDetailsArea />
             <TestimonialArea />
           </main>
